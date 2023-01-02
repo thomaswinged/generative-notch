@@ -1,0 +1,44 @@
+batch_name: Test Batch
+dfx_template_file: D:\git\generative_notch\in_out\dfx\test_project.dfx
+output_dir: D:\git\generative_notch\in_out\output
+dfx_intermediate_dir: D:\git\generative_notch\in_out\temp
+notch_app: C:\Program Files\Notch\NotchApp.exe
+ffmpeg: D:\Tools\ffmpeg\bin\ffmpeg.exe
+google_sheets:
+  credentials: D:\git\generative_notch\generative_notch\config\notchnft-4550b7e2ae1c.json
+  sheet: generative_notch-rarity_table
+  worksheet: Sheet1
+render_settings:
+  width: 1080
+  height: 1080
+  fps: 25
+  duration_frames: 250
+  preroll_frames: 50
+  loop_frames: 50
+  target_size_kb: 10240
+feature:
+  Scale:
+    node: $F_Envelope1
+    trait:
+      Small:
+        Attributes, Value: 0.25
+      Medium:
+        Attributes, Value: 0.5
+      Big:
+        Attributes, Value: 1
+  Color:
+    node: $F_Material1
+    trait:
+      Red:
+        Material, Colour: 1, 0, 0, 1
+      Green:
+        Material, Colour: 0, 1, 0, 1
+      Blue:
+        Material, Colour: 0, 0, 1, 1
+  Visible:
+    node: $F_Execute1
+    trait:
+      On:
+        Attributes, Execute Child Nodes: 1
+      Off:
+        Attributes, Execute Child Nodes: 0
