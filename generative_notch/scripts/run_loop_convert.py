@@ -1,7 +1,7 @@
 import logging
 import os
 from argparse import ArgumentParser
-from generative_notch.render import loop_video, convert_to_h264
+from generative_notch._deprecated.render import loop_video, convert_to_h264
 
 if __name__ == '__main__':
     os.chdir(os.path.dirname(__file__))

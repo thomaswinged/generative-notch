@@ -1,9 +1,9 @@
 import logging
 from datetime import datetime
 from generative_notch import init_logger, get_config
-from generative_notch.rarity_table import RarityTable
-from generative_notch.combination_assembler import CombinationAssembler
-from generative_notch.render import Renderer
+from generative_notch._deprecated.rarity_table import RarityTable
+from generative_notch._deprecated.combination_assembler import CombinationAssembler
+from generative_notch._deprecated.render import Renderer
 
 init_logger()
 cfg = get_config()
