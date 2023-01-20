@@ -70,5 +70,5 @@ class CombinationAssembler:
 				prop = tuple(prop.split(', '))
 				layer.node(node).property(*prop).set(value)
 
-		result = self.dfx.script.render_queue.add(layer, out_video_dir, out_video_name)
+		result = self.dfx.script.render_queue._add_instruction(layer, out_video_dir, out_video_name)
 		return result

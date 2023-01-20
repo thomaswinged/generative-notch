@@ -12,5 +12,5 @@ def init_logger(level: int = logging.DEBUG):
     logger.setLevel(level)
 
 
-def get_config():
-    return config.get()
+def get_config(path: str = None):
+    return config.get(path)

@@ -94,12 +94,9 @@ class RarityTable:
 		gc = gspread.service_account(filename=credentials_filename)
 		sh = gc.open(sheet_filename)
 		worksheet = sh.worksheet(worksheet_name)
-
-		df = (
-			get_as_dataframe(worksheet, usecols=[0, 1, 2])
-            .dropna(how='all')
-            .assign(feature_name=lambda d: d['feature_name'].ffill())
-		)
+		df = get_as_dataframe(worksheet, usecols=[0, 1, 2])
+		df = df.dropna(how='all')
+		df = df.assign(feature_name=lambda d: d['feature_name'].ffill())
 
 		# Re-scale target_weights to range 0:1
 		df = (

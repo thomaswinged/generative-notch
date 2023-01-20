@@ -1,13 +1,26 @@
 batch_name: Test Batch
+
 dfx_template_file: D:\git\generative_notch\in_out\dfx\test_project.dfx
 output_dir: D:\git\generative_notch\in_out\output
 dfx_intermediate_dir: D:\git\generative_notch\in_out\temp
 notch_app: C:\Program Files\Notch\NotchApp.exe
 ffmpeg: D:\Tools\ffmpeg\bin\ffmpeg.exe
+
+stable_diffusion:
+  prompt: portrait of a {gender} {profession} holding a {holding}, artstation
+  save_dir: D:\git\generative_notch\in_out\sd\
+
 google_sheets:
-  credentials: D:\git\generative_notch\generative_notch\config\notchnft-4550b7e2ae1c.json
+  credentials: D:\git\generative_notch\generative_notch\config\google_sheets_credentials.json
   sheet: generative_notch-rarity_table
   worksheet: Sheet1
+
+table:
+  layout: single  # single / multiindex_horizontal / multiindex_vertical
+  feature_column_name: feature_name
+  trait_column_name: trait_name
+  weights_column_name: target_weight
+
 render_settings:
   width: 1080
   height: 1080
@@ -16,29 +29,41 @@ render_settings:
   preroll_frames: 50
   loop_frames: 50
   target_size_kb: 10240
+
 feature:
   Scale:
+    action: set_single_notch_property
     node: $F_Envelope1
-    trait:
-      Small:
-        Attributes, Value: 0.25
-      Medium:
-        Attributes, Value: 0.5
-      Big:
-        Attributes, Value: 1
+    property: Attributes, Value
+    options:
+      Small: 0.25
+      Medium: 0.5
+      Big: 1
   Color:
+    action: set_single_notch_property
     node: $F_Material1
-    trait:
-      Red:
-        Material, Colour: 1, 0, 0, 1
-      Green:
-        Material, Colour: 0, 1, 0, 1
-      Blue:
-        Material, Colour: 0, 0, 1, 1
+    property: Material, Colour
+    options:
+      Red: 1, 0, 0, 1
+      Green: 0, 1, 0, 1
+      Blue: 0, 0, 1, 1
   Visible:
+    action: set_single_notch_property
     node: $F_Execute1
-    trait:
-      On:
-        Attributes, Execute Child Nodes: 1
-      Off:
-        Attributes, Execute Child Nodes: 0
+    property: Attributes, Execute Child Nodes
+    options:
+      Visible: 1
+      Hidden: 0
+  Power:
+    action: set_single_notch_property_in_range
+    node: $F_Text
+    property: Attribute, Text
+  Gender:
+    action: substitute_stable_diffusion_keyword
+    substitutes: gender
+  Holding:
+    action: substitute_stable_diffusion_keyword
+    substitutes: holding
+  Profession:
+    action: substitute_stable_diffusion_keyword
+    substitutes: profession
