@@ -1,0 +1,1297 @@
+Scale,Color,Visible,Profession,Gender,Holding,Power
+Medium,Red,Visible,viking,male,stick,0-2
+Medium,Green,Hidden,wizard,female,stick,0-2
+Medium,Blue,Visible,maid,male,stick,0-2
+Medium,Red,Visible,viking,female,stick,0-2
+Medium,Green,Visible,wizard,male,stick,0-2
+Medium,Blue,Hidden,maid,female,stick,0-2
+Medium,Red,Visible,viking,male,stick,3-5
+Medium,Green,Visible,wizard,female,stick,0-2
+Medium,Blue,Visible,maid,male,axe,0-2
+Medium,Red,Hidden,viking,female,stick,0-2
+Medium,Green,Visible,maid,male,stick,0-2
+Medium,Blue,Visible,wizard,female,stick,0-2
+Medium,Red,Visible,wizard,male,stick,0-2
+Medium,Green,Hidden,viking,female,stick,0-2
+Medium,Blue,Visible,maid,female,stick,0-2
+Medium,Red,Visible,maid,male,stick,0-2
+Medium,Green,Visible,viking,male,stick,0-2
+Medium,Blue,Hidden,wizard,female,stick,0-2
+Medium,Red,Visible,wizard,female,stick,0-2
+Medium,Blue,Visible,viking,male,stick,0-2
+Medium,Green,Visible,maid,female,stick,0-2
+Medium,Red,Hidden,viking,male,stick,0-2
+Medium,Blue,Visible,wizard,male,stick,0-2
+Medium,Green,Hidden,maid,female,stick,0-2
+Medium,Red,Visible,maid,female,stick,0-2
+Medium,Green,Visible,viking,female,stick,0-2
+Medium,Blue,Hidden,wizard,male,stick,0-2
+Medium,Blue,Visible,viking,female,stick,0-2
+Medium,Red,Visible,wizard,male,stick,3-5
+Medium,Green,Hidden,maid,male,stick,0-2
+Medium,Red,Visible,viking,male,axe,0-2
+Medium,Red,Hidden,wizard,female,stick,0-2
+Medium,Green,Visible,maid,male,stick,3-5
+Medium,Blue,Hidden,viking,female,stick,0-2
+Medium,Green,Visible,wizard,male,axe,0-2
+Medium,Red,Hidden,maid,female,stick,0-2
+Medium,Blue,Visible,viking,male,axe,0-2
+Medium,Green,Visible,wizard,female,stick,3-5
+Medium,Blue,Hidden,maid,male,stick,0-2
+Medium,Red,Hidden,wizard,male,stick,0-2
+Medium,Green,Visible,viking,female,stick,3-5
+Medium,Blue,Visible,maid,female,axe,0-2
+Medium,Red,Hidden,maid,male,stick,0-2
+Medium,Green,Hidden,viking,male,stick,0-2
+Medium,Blue,Visible,wizard,female,stick,3-5
+Medium,Red,Visible,viking,female,axe,0-2
+Medium,Green,Hidden,wizard,male,stick,0-2
+Medium,Blue,Visible,maid,female,stick,3-5
+Medium,Blue,Hidden,viking,male,stick,0-2
+Medium,Red,Visible,wizard,female,axe,0-2
+Medium,Green,Visible,maid,male,axe,0-2
+Medium,Red,Visible,viking,female,stick,3-5
+Medium,Green,Visible,wizard,alien,stick,0-2
+Medium,Blue,Visible,maid,male,stick,3-5
+Medium,Red,Visible,maid,female,axe,0-2
+Medium,Green,Visible,viking,male,stick,3-5
+Medium,Blue,Visible,wizard,female,axe,0-2
+Medium,Red,Visible,viking,alien,stick,0-2
+Medium,Green,Visible,wizard,male,stick,3-5
+Medium,Green,Visible,maid,female,axe,0-2
+Medium,Blue,Visible,viking,alien,stick,0-2
+Medium,Red,Visible,wizard,male,axe,0-2
+Medium,Red,Visible,maid,female,stick,3-5
+Medium,Blue,Visible,wizard,alien,stick,0-2
+Medium,Green,Visible,viking,male,axe,0-2
+Medium,Green,Visible,maid,female,stick,3-5
+Medium,Blue,Visible,maid,alien,stick,0-2
+Medium,Red,Visible,wizard,female,stick,3-5
+Medium,Blue,Visible,viking,female,axe,0-2
+Medium,Red,Visible,maid,male,stick,3-5
+Medium,Blue,Visible,wizard,male,axe,0-2
+Medium,Green,Visible,viking,alien,stick,0-2
+Medium,Red,Visible,maid,male,axe,0-2
+Medium,Green,Hidden,viking,female,stick,3-5
+Medium,Blue,Visible,wizard,male,stick,3-5
+Medium,Red,Visible,wizard,alien,stick,0-2
+Medium,Green,Visible,viking,female,axe,0-2
+Medium,Blue,Hidden,maid,alien,stick,0-2
+Medium,Green,Visible,wizard,female,axe,0-2
+Medium,Blue,Visible,viking,male,stick,3-5
+Medium,Red,Visible,maid,alien,stick,0-2
+Medium,Red,Hidden,viking,male,stick,3-5
+Medium,Green,Hidden,wizard,female,axe,0-2
+Medium,Blue,Visible,viking,female,stick,3-5
+Medium,Green,Visible,maid,alien,stick,0-2
+Medium,Red,Hidden,wizard,male,axe,0-2
+Medium,Blue,Hidden,maid,male,stick,3-5
+Medium,Red,Hidden,viking,female,axe,0-2
+Medium,Green,Hidden,wizard,alien,stick,0-2
+Medium,Blue,Hidden,maid,male,axe,0-2
+Medium,Red,Hidden,viking,female,stick,3-5
+Medium,Green,Hidden,maid,alien,stick,0-2
+Medium,Blue,Hidden,wizard,male,stick,3-5
+Medium,Red,Hidden,wizard,female,axe,0-2
+Medium,Green,Hidden,viking,male,stick,3-5
+Medium,Blue,Hidden,maid,female,axe,0-2
+Medium,Red,Hidden,viking,alien,stick,0-2
+Medium,Green,Hidden,wizard,male,stick,3-5
+Medium,Red,Hidden,maid,female,axe,0-2
+Medium,Blue,Hidden,viking,alien,stick,0-2
+Medium,Green,Hidden,wizard,male,axe,0-2
+Medium,Blue,Hidden,maid,female,stick,3-5
+Medium,Red,Visible,viking,male,broom,0-2
+Medium,Green,Hidden,wizard,female,stick,3-5
+Medium,Blue,Visible,maid,male,broom,0-2
+Medium,Red,Hidden,wizard,alien,stick,0-2
+Medium,Green,Visible,viking,female,broom,0-2
+Medium,Blue,Hidden,viking,male,stick,3-5
+Medium,Green,Hidden,maid,female,axe,0-2
+Medium,Red,Hidden,maid,alien,stick,0-2
+Medium,Blue,Visible,wizard,male,broom,0-2
+Medium,Red,Hidden,wizard,female,stick,3-5
+Medium,Green,Visible,viking,male,broom,0-2
+Medium,Red,Hidden,maid,female,stick,3-5
+Medium,Blue,Hidden,wizard,alien,stick,0-2
+Medium,Green,Visible,maid,male,broom,0-2
+Medium,Blue,Hidden,viking,female,stick,3-5
+Medium,Red,Visible,viking,female,broom,0-2
+Medium,Green,Hidden,maid,male,axe,0-2
+Medium,Blue,Hidden,wizard,female,stick,3-5
+Medium,Red,Visible,wizard,male,broom,0-2
+Medium,Green,Hidden,viking,alien,stick,0-2
+Medium,Blue,Visible,maid,female,broom,0-2
+Medium,Red,Hidden,wizard,male,stick,3-5
+Medium,Green,Hidden,viking,male,axe,0-2
+Medium,Red,Visible,maid,female,broom,0-2
+Medium,Green,Hidden,maid,male,stick,3-5
+Medium,Blue,Visible,viking,female,broom,0-2
+Medium,Blue,Hidden,wizard,male,axe,0-2
+Medium,Green,Hidden,maid,female,stick,3-5
+Medium,Red,Visible,wizard,female,broom,0-2
+Medium,Red,Hidden,maid,male,stick,3-5
+Medium,Blue,Hidden,viking,male,axe,0-2
+Medium,Green,Visible,wizard,female,broom,0-2
+Medium,Blue,Hidden,viking,female,axe,0-2
+Medium,Red,Visible,maid,male,broom,0-2
+Medium,Green,Visible,wizard,male,broom,0-2
+Medium,Green,Hidden,viking,female,axe,0-2
+Medium,Blue,Visible,viking,male,broom,0-2
+Medium,Blue,Hidden,wizard,female,axe,0-2
+Medium,Red,Hidden,maid,male,axe,0-2
+Medium,Green,Visible,maid,female,broom,0-2
+Medium,Red,Hidden,viking,male,axe,0-2
+Medium,Blue,Visible,wizard,female,broom,0-2
+Medium,Red,Visible,viking,alien,stick,3-5
+Small,Green,Visible,wizard,male,stick,0-2
+Medium,Blue,Visible,maid,alien,stick,3-5
+Small,Red,Visible,viking,female,stick,0-2
+Medium,Green,Visible,wizard,alien,stick,3-5
+Small,Blue,Visible,maid,male,stick,0-2
+Medium,Red,Visible,wizard,alien,stick,3-5
+Small,Green,Visible,viking,female,stick,0-2
+Medium,Red,Visible,maid,alien,stick,3-5
+Small,Blue,Visible,viking,male,stick,0-2
+Medium,Green,Visible,maid,alien,stick,3-5
+Small,Blue,Visible,wizard,female,stick,0-2
+Medium,Green,Visible,viking,alien,stick,3-5
+Small,Red,Visible,wizard,male,stick,0-2
+Small,Blue,Visible,maid,female,stick,0-2
+Medium,Blue,Visible,viking,alien,stick,3-5
+Small,Red,Visible,wizard,female,stick,0-2
+Medium,Green,Visible,maid,alien,axe,0-2
+Medium,Blue,Visible,wizard,alien,stick,3-5
+Small,Red,Visible,viking,male,stick,0-2
+Medium,Green,Visible,maid,male,axe,3-5
+Small,Red,Visible,maid,female,stick,0-2
+Medium,Green,Visible,viking,alien,axe,0-2
+Medium,Blue,Visible,wizard,male,axe,3-5
+Small,Green,Visible,wizard,female,stick,0-2
+Medium,Red,Visible,viking,male,axe,3-5
+Small,Green,Visible,maid,female,stick,0-2
+Medium,Blue,Visible,viking,alien,axe,0-2
+Small,Red,Visible,maid,male,stick,0-2
+Medium,Blue,Visible,wizard,female,axe,3-5
+Medium,Red,Visible,viking,alien,axe,0-2
+Small,Green,Visible,maid,male,stick,0-2
+Medium,Red,Visible,wizard,female,axe,3-5
+Small,Blue,Visible,viking,female,stick,0-2
+Medium,Green,Hidden,wizard,male,broom,0-2
+Medium,Blue,Visible,maid,male,axe,3-5
+Medium,Red,Visible,wizard,alien,axe,0-2
+Medium,Green,Hidden,viking,female,broom,0-2
+Small,Blue,Visible,wizard,male,stick,0-2
+Medium,Red,Visible,maid,female,axe,3-5
+Small,Green,Visible,viking,male,stick,0-2
+Medium,Blue,Hidden,maid,female,broom,0-2
+Medium,Red,Visible,maid,alien,axe,0-2
+Medium,Green,Hidden,viking,male,broom,0-2
+Medium,Green,Visible,wizard,female,axe,3-5
+Medium,Blue,Visible,viking,male,axe,3-5
+Medium,Red,Hidden,wizard,female,broom,0-2
+Medium,Blue,Visible,maid,alien,axe,0-2
+Medium,Red,Hidden,viking,male,broom,0-2
+Medium,Green,Visible,maid,female,axe,3-5
+Medium,Blue,Hidden,wizard,male,broom,0-2
+Medium,Red,Visible,viking,female,axe,3-5
+Medium,Green,Visible,wizard,alien,axe,0-2
+Medium,Blue,Hidden,maid,male,broom,0-2
+Medium,Green,Visible,viking,female,axe,3-5
+Medium,Red,Hidden,wizard,male,broom,0-2
+Medium,Blue,Visible,wizard,alien,axe,0-2
+Medium,Blue,Visible,maid,female,axe,3-5
+Medium,Red,Hidden,viking,female,broom,0-2
+Medium,Green,Hidden,maid,male,broom,0-2
+Medium,Red,Visible,wizard,male,axe,3-5
+Medium,Green,Hidden,maid,female,broom,0-2
+Medium,Blue,Visible,viking,female,axe,3-5
+Medium,Red,Visible,maid,male,axe,3-5
+Medium,Green,Hidden,wizard,female,broom,0-2
+Medium,Blue,Hidden,viking,male,broom,0-2
+Medium,Green,Visible,viking,male,axe,3-5
+Medium,Red,Hidden,maid,female,broom,0-2
+Medium,Green,Visible,wizard,male,axe,3-5
+Medium,Blue,Hidden,viking,female,broom,0-2
+Medium,Red,Hidden,maid,male,broom,0-2
+Medium,Blue,Visible,wizard,female,alien weapon,0-2
+Medium,Blue,Hidden,wizard,female,broom,0-2
+Medium,Red,Visible,viking,male,alien weapon,0-2
+Medium,Green,Hidden,maid,alien,stick,3-5
+Medium,Red,Visible,viking,female,alien weapon,0-2
+Medium,Green,Visible,wizard,male,alien weapon,0-2
+Medium,Blue,Hidden,maid,alien,stick,3-5
+Medium,Red,Visible,wizard,male,alien weapon,0-2
+Medium,Green,Hidden,viking,alien,stick,3-5
+Medium,Blue,Visible,maid,female,alien weapon,0-2
+Medium,Red,Visible,wizard,female,alien weapon,0-2
+Medium,Blue,Hidden,viking,alien,stick,3-5
+Medium,Green,Visible,maid,male,alien weapon,0-2
+Medium,Red,Hidden,viking,alien,stick,3-5
+Medium,Green,Visible,wizard,female,alien weapon,0-2
+Small,Blue,Hidden,maid,male,stick,0-2
+Medium,Red,Visible,maid,male,alien weapon,0-2
+Medium,Green,Hidden,wizard,alien,stick,3-5
+Medium,Blue,Visible,viking,female,alien weapon,0-2
+Medium,Red,Hidden,wizard,alien,stick,3-5
+Medium,Green,Visible,viking,male,alien weapon,0-2
+Small,Blue,Hidden,maid,female,stick,0-2
+Medium,Red,Visible,maid,female,alien weapon,0-2
+Medium,Blue,Hidden,wizard,alien,stick,3-5
+Medium,Green,Visible,viking,female,alien weapon,0-2
+Small,Red,Hidden,viking,male,stick,0-2
+Medium,Blue,Visible,wizard,male,alien weapon,0-2
+Medium,Red,Hidden,maid,alien,stick,3-5
+Medium,Green,Visible,maid,female,alien weapon,0-2
+Small,Green,Hidden,viking,male,stick,0-2
+Medium,Blue,Visible,viking,male,alien weapon,0-2
+Small,Red,Hidden,wizard,female,stick,0-2
+Medium,Blue,Visible,maid,male,alien weapon,0-2
+Small,Green,Hidden,wizard,female,stick,0-2
+Small,Red,Hidden,viking,female,stick,0-2
+Small,Green,Hidden,wizard,male,stick,0-2
+Small,Red,Hidden,maid,male,stick,0-2
+Small,Blue,Hidden,viking,female,stick,0-2
+Small,Green,Hidden,maid,male,stick,0-2
+Small,Blue,Hidden,wizard,female,stick,0-2
+Small,Red,Hidden,wizard,male,stick,0-2
+Small,Green,Hidden,viking,female,stick,0-2
+Small,Red,Hidden,maid,female,stick,0-2
+Small,Blue,Hidden,viking,male,stick,0-2
+Medium,Green,Hidden,wizard,male,axe,3-5
+Medium,Blue,Hidden,maid,female,axe,3-5
+Small,Green,Hidden,maid,female,stick,0-2
+Medium,Red,Hidden,viking,alien,axe,0-2
+Small,Blue,Hidden,wizard,male,stick,0-2
+Medium,Red,Hidden,viking,male,axe,3-5
+Medium,Green,Hidden,wizard,alien,axe,0-2
+Medium,Blue,Hidden,maid,alien,axe,0-2
+Medium,Red,Hidden,viking,female,axe,3-5
+Big,Green,Visible,wizard,male,stick,0-2
+Big,Blue,Visible,maid,female,stick,0-2
+Medium,Red,Hidden,wizard,male,axe,3-5
+Medium,Green,Hidden,viking,alien,axe,0-2
+Big,Red,Visible,maid,female,stick,0-2
+Medium,Blue,Hidden,viking,male,axe,3-5
+Big,Green,Visible,wizard,female,stick,0-2
+Medium,Blue,Hidden,maid,male,axe,3-5
+Big,Red,Visible,viking,female,stick,0-2
+Medium,Green,Hidden,maid,alien,axe,0-2
+Medium,Blue,Visible,wizard,male,broom,3-5
+Big,Red,Visible,wizard,female,stick,0-2
+Medium,Blue,Hidden,viking,alien,axe,0-2
+Medium,Green,Visible,maid,male,broom,3-5
+Medium,Red,Hidden,wizard,alien,axe,0-2
+Big,Green,Visible,viking,female,stick,0-2
+Medium,Red,Hidden,maid,male,axe,3-5
+Big,Blue,Visible,viking,female,stick,0-2
+Medium,Blue,Hidden,wizard,alien,axe,0-2
+Medium,Green,Visible,maid,female,broom,3-5
+Big,Red,Visible,viking,male,stick,0-2
+Medium,Green,Hidden,wizard,female,axe,3-5
+Medium,Blue,Visible,maid,alien,broom,0-2
+Big,Red,Visible,wizard,male,stick,0-2
+Medium,Green,Hidden,viking,male,axe,3-5
+Medium,Blue,Visible,maid,female,broom,3-5
+Medium,Red,Hidden,maid,alien,axe,0-2
+Big,Green,Visible,viking,male,stick,0-2
+Medium,Blue,Hidden,wizard,female,axe,3-5
+Medium,Red,Visible,viking,alien,broom,0-2
+Big,Green,Visible,maid,male,stick,0-2
+Medium,Red,Hidden,wizard,female,axe,3-5
+Medium,Blue,Visible,viking,alien,broom,0-2
+Big,Green,Visible,maid,female,stick,0-2
+Medium,Blue,Hidden,wizard,male,axe,3-5
+Big,Red,Visible,maid,male,stick,0-2
+Medium,Green,Hidden,viking,female,axe,3-5
+Medium,Blue,Visible,wizard,alien,broom,0-2
+Big,Blue,Visible,viking,male,stick,0-2
+Medium,Red,Hidden,maid,female,axe,3-5
+Medium,Green,Visible,wizard,alien,broom,0-2
+Medium,Green,Hidden,maid,male,axe,3-5
+Big,Blue,Visible,wizard,female,stick,0-2
+Medium,Red,Visible,wizard,alien,broom,0-2
+Medium,Blue,Hidden,viking,female,axe,3-5
+Big,Blue,Visible,maid,male,stick,0-2
+Medium,Green,Hidden,maid,female,axe,3-5
+Medium,Green,Visible,viking,alien,broom,0-2
+Big,Blue,Visible,wizard,male,stick,0-2
+Medium,Red,Visible,maid,alien,broom,0-2
+Medium,Red,Visible,viking,male,broom,3-5
+Medium,Red,Visible,viking,female,broom,3-5
+Medium,Green,Visible,maid,alien,broom,0-2
+Medium,Red,Visible,wizard,male,broom,3-5
+Medium,Green,Visible,viking,female,broom,3-5
+Medium,Blue,Visible,wizard,female,broom,3-5
+Medium,Red,Visible,maid,male,broom,3-5
+Medium,Green,Visible,viking,male,broom,3-5
+Medium,Blue,Hidden,wizard,female,alien weapon,0-2
+Medium,Red,Visible,wizard,female,broom,3-5
+Medium,Green,Hidden,viking,male,alien weapon,0-2
+Medium,Blue,Visible,maid,male,broom,3-5
+Medium,Red,Hidden,viking,female,alien weapon,0-2
+Medium,Green,Hidden,wizard,male,alien weapon,0-2
+Medium,Blue,Visible,viking,female,broom,3-5
+Medium,Red,Hidden,maid,male,alien weapon,0-2
+Medium,Green,Visible,wizard,female,broom,3-5
+Medium,Blue,Hidden,maid,male,alien weapon,0-2
+Medium,Red,Visible,maid,female,broom,3-5
+Medium,Green,Hidden,viking,female,alien weapon,0-2
+Medium,Green,Visible,wizard,male,broom,3-5
+Medium,Blue,Hidden,viking,male,alien weapon,0-2
+Medium,Blue,Visible,viking,male,broom,3-5
+Medium,Red,Hidden,wizard,female,alien weapon,0-2
+Small,Red,Visible,maid,alien,stick,0-2
+Medium,Green,Hidden,wizard,female,alien weapon,0-2
+Small,Blue,Visible,maid,alien,stick,0-2
+Medium,Red,Hidden,viking,male,alien weapon,0-2
+Medium,Green,Hidden,maid,female,alien weapon,0-2
+Small,Blue,Visible,wizard,alien,stick,0-2
+Medium,Red,Hidden,wizard,male,alien weapon,0-2
+Small,Green,Visible,viking,alien,stick,0-2
+Medium,Blue,Hidden,maid,female,alien weapon,0-2
+Small,Red,Visible,viking,alien,stick,0-2
+Medium,Green,Hidden,maid,male,alien weapon,0-2
+Medium,Blue,Hidden,viking,female,alien weapon,0-2
+Small,Red,Visible,wizard,alien,stick,0-2
+Medium,Blue,Hidden,wizard,male,alien weapon,0-2
+Small,Green,Visible,maid,alien,stick,0-2
+Medium,Red,Hidden,maid,female,alien weapon,0-2
+Small,Green,Visible,wizard,alien,stick,0-2
+Small,Blue,Visible,viking,alien,stick,0-2
+Small,Red,Visible,viking,male,stick,3-5
+Small,Green,Visible,wizard,female,stick,3-5
+Small,Blue,Visible,maid,male,stick,3-5
+Small,Red,Visible,viking,female,stick,3-5
+Small,Green,Visible,wizard,male,stick,3-5
+Small,Blue,Visible,maid,female,stick,3-5
+Small,Red,Visible,wizard,male,stick,3-5
+Small,Green,Visible,viking,female,stick,3-5
+Small,Red,Visible,maid,male,stick,3-5
+Small,Blue,Visible,viking,female,stick,3-5
+Medium,Green,Visible,wizard,alien,axe,3-5
+Small,Red,Visible,maid,female,stick,3-5
+Small,Blue,Visible,viking,male,stick,3-5
+Medium,Green,Visible,maid,alien,axe,3-5
+Small,Blue,Visible,wizard,male,stick,3-5
+Medium,Red,Visible,viking,alien,axe,3-5
+Small,Green,Visible,maid,female,stick,3-5
+Medium,Blue,Visible,wizard,alien,axe,3-5
+Small,Red,Visible,wizard,female,stick,3-5
+Medium,Green,Visible,viking,alien,axe,3-5
+Medium,Blue,Visible,maid,alien,axe,3-5
+Small,Green,Visible,viking,male,stick,3-5
+Small,Blue,Visible,wizard,female,stick,3-5
+Medium,Red,Visible,maid,alien,axe,3-5
+Big,Red,Hidden,viking,male,stick,0-2
+Small,Green,Visible,maid,male,stick,3-5
+Medium,Red,Visible,wizard,alien,axe,3-5
+Big,Blue,Hidden,viking,female,stick,0-2
+Medium,Blue,Visible,viking,alien,axe,3-5
+Big,Green,Hidden,wizard,male,stick,0-2
+Big,Red,Hidden,maid,female,stick,0-2
+Big,Green,Hidden,wizard,female,stick,0-2
+Medium,Blue,Hidden,maid,alien,broom,0-2
+Big,Red,Hidden,wizard,male,stick,0-2
+Medium,Green,Hidden,viking,alien,broom,0-2
+Big,Blue,Hidden,maid,male,stick,0-2
+Medium,Red,Hidden,viking,alien,broom,0-2
+Big,Green,Hidden,maid,female,stick,0-2
+Medium,Blue,Hidden,wizard,alien,broom,0-2
+Big,Red,Hidden,viking,female,stick,0-2
+Medium,Green,Visible,wizard,alien,alien weapon,0-2
+Medium,Blue,Visible,maid,alien,alien weapon,0-2
+Big,Red,Hidden,maid,male,stick,0-2
+Big,Green,Hidden,viking,male,stick,0-2
+Medium,Blue,Visible,wizard,alien,alien weapon,0-2
+Medium,Red,Hidden,wizard,alien,broom,0-2
+Big,Green,Hidden,viking,female,stick,0-2
+Medium,Red,Visible,maid,alien,alien weapon,0-2
+Small,Blue,Visible,viking,male,axe,0-2
+Big,Blue,Hidden,wizard,female,stick,0-2
+Medium,Green,Visible,maid,alien,alien weapon,0-2
+Medium,Red,Hidden,maid,alien,broom,0-2
+Small,Green,Visible,viking,male,axe,0-2
+Big,Blue,Hidden,maid,female,stick,0-2
+Medium,Red,Visible,wizard,alien,alien weapon,0-2
+Small,Green,Visible,viking,female,axe,0-2
+Big,Blue,Hidden,wizard,male,stick,0-2
+Medium,Green,Hidden,wizard,alien,broom,0-2
+Medium,Red,Visible,viking,alien,alien weapon,0-2
+Small,Blue,Visible,maid,male,axe,0-2
+Big,Red,Hidden,wizard,female,stick,0-2
+Medium,Green,Visible,viking,alien,alien weapon,0-2
+Medium,Blue,Hidden,maid,male,broom,3-5
+Small,Red,Visible,viking,female,axe,0-2
+Big,Green,Hidden,maid,male,stick,0-2
+Medium,Blue,Visible,wizard,female,alien weapon,3-5
+Medium,Green,Hidden,maid,alien,broom,0-2
+Small,Red,Visible,viking,male,axe,0-2
+Medium,Blue,Hidden,wizard,female,broom,3-5
+Big,Blue,Hidden,viking,male,stick,0-2
+Medium,Red,Visible,wizard,female,alien weapon,3-5
+Small,Green,Visible,maid,male,axe,0-2
+Medium,Blue,Visible,viking,alien,alien weapon,0-2
+Medium,Red,Hidden,wizard,female,broom,3-5
+Small,Green,Visible,maid,female,axe,0-2
+Medium,Blue,Hidden,viking,alien,broom,0-2
+Medium,Red,Visible,wizard,male,alien weapon,3-5
+Small,Red,Visible,maid,male,axe,0-2
+Medium,Green,Hidden,viking,female,broom,3-5
+Small,Green,Visible,wizard,male,axe,0-2
+Medium,Blue,Visible,maid,female,alien weapon,3-5
+Medium,Red,Hidden,viking,male,broom,3-5
+Small,Green,Visible,wizard,female,axe,0-2
+Medium,Blue,Hidden,maid,female,broom,3-5
+Small,Red,Visible,wizard,male,axe,0-2
+Medium,Green,Visible,viking,male,alien weapon,3-5
+Medium,Red,Hidden,maid,female,broom,3-5
+Small,Blue,Visible,viking,female,axe,0-2
+Medium,Green,Hidden,wizard,male,broom,3-5
+Small,Blue,Visible,maid,female,axe,0-2
+Medium,Red,Visible,viking,male,alien weapon,3-5
+Small,Blue,Visible,wizard,male,axe,0-2
+Medium,Green,Hidden,maid,female,broom,3-5
+Medium,Red,Visible,viking,female,alien weapon,3-5
+Small,Blue,Visible,wizard,female,axe,0-2
+Medium,Green,Hidden,maid,male,broom,3-5
+Medium,Red,Hidden,wizard,male,broom,3-5
+Small,Red,Visible,maid,female,axe,0-2
+Medium,Blue,Visible,viking,male,alien weapon,3-5
+Small,Red,Visible,wizard,female,axe,0-2
+Medium,Green,Hidden,viking,male,broom,3-5
+Medium,Green,Visible,maid,male,alien weapon,3-5
+Medium,Blue,Hidden,viking,female,broom,3-5
+Medium,Green,Visible,wizard,male,alien weapon,3-5
+Medium,Red,Hidden,viking,female,broom,3-5
+Medium,Blue,Visible,maid,male,alien weapon,3-5
+Medium,Green,Hidden,wizard,female,broom,3-5
+Medium,Red,Visible,maid,male,alien weapon,3-5
+Medium,Blue,Hidden,viking,male,broom,3-5
+Medium,Green,Visible,wizard,female,alien weapon,3-5
+Medium,Red,Visible,maid,female,alien weapon,3-5
+Medium,Blue,Hidden,wizard,male,broom,3-5
+Medium,Green,Visible,viking,female,alien weapon,3-5
+Medium,Red,Hidden,maid,male,broom,3-5
+Medium,Blue,Visible,viking,female,alien weapon,3-5
+Medium,Green,Visible,maid,female,alien weapon,3-5
+Medium,Blue,Visible,wizard,male,alien weapon,3-5
+Small,Red,Hidden,viking,alien,stick,0-2
+Small,Green,Hidden,wizard,alien,stick,0-2
+Small,Blue,Hidden,maid,alien,stick,0-2
+Small,Red,Hidden,wizard,alien,stick,0-2
+Small,Green,Hidden,viking,alien,stick,0-2
+Small,Red,Hidden,maid,alien,stick,0-2
+Small,Blue,Hidden,viking,alien,stick,0-2
+Small,Green,Hidden,maid,alien,stick,0-2
+Small,Blue,Hidden,wizard,alien,stick,0-2
+Big,Red,Visible,viking,alien,stick,0-2
+Big,Green,Visible,wizard,alien,stick,0-2
+Big,Blue,Visible,maid,alien,stick,0-2
+Medium,Red,Hidden,viking,alien,axe,3-5
+Big,Green,Visible,maid,alien,stick,0-2
+Medium,Blue,Hidden,wizard,alien,axe,3-5
+Big,Red,Visible,wizard,alien,stick,0-2
+Medium,Green,Hidden,viking,alien,axe,3-5
+Small,Blue,Hidden,maid,male,stick,3-5
+Big,Red,Visible,maid,alien,stick,0-2
+Medium,Green,Hidden,wizard,alien,axe,3-5
+Big,Blue,Visible,viking,alien,stick,0-2
+Small,Red,Hidden,viking,female,stick,3-5
+Medium,Green,Hidden,maid,alien,axe,3-5
+Big,Blue,Visible,wizard,alien,stick,0-2
+Medium,Red,Hidden,wizard,alien,axe,3-5
+Big,Green,Visible,viking,alien,stick,0-2
+Small,Blue,Hidden,maid,female,stick,3-5
+Small,Red,Hidden,viking,male,stick,3-5
+Medium,Blue,Hidden,maid,alien,axe,3-5
+Small,Green,Hidden,wizard,male,stick,3-5
+Medium,Red,Hidden,maid,alien,axe,3-5
+Small,Green,Hidden,viking,female,stick,3-5
+Medium,Blue,Hidden,viking,alien,axe,3-5
+Small,Red,Hidden,wizard,male,stick,3-5
+Small,Green,Hidden,wizard,female,stick,3-5
+Small,Red,Hidden,maid,male,stick,3-5
+Small,Blue,Hidden,viking,female,stick,3-5
+Small,Green,Hidden,maid,male,stick,3-5
+Small,Blue,Hidden,wizard,female,stick,3-5
+Small,Red,Hidden,wizard,female,stick,3-5
+Medium,Green,Hidden,viking,alien,alien weapon,0-2
+Big,Blue,Visible,maid,male,stick,3-5
+Medium,Red,Hidden,viking,alien,alien weapon,0-2
+Small,Green,Hidden,maid,female,stick,3-5
+Medium,Blue,Hidden,wizard,alien,alien weapon,0-2
+Big,Red,Visible,viking,male,stick,3-5
+Medium,Green,Hidden,wizard,alien,alien weapon,0-2
+Big,Blue,Visible,maid,female,stick,3-5
+Small,Green,Hidden,viking,male,stick,3-5
+Medium,Red,Hidden,wizard,alien,alien weapon,0-2
+Medium,Blue,Visible,maid,alien,broom,3-5
+Big,Red,Visible,viking,female,stick,3-5
+Medium,Green,Hidden,maid,alien,alien weapon,0-2
+Small,Blue,Hidden,wizard,male,stick,3-5
+Medium,Red,Hidden,maid,alien,alien weapon,0-2
+Big,Green,Visible,viking,male,stick,3-5
+Big,Blue,Visible,wizard,female,stick,3-5
+Medium,Blue,Hidden,viking,alien,alien weapon,0-2
+Medium,Red,Visible,wizard,alien,broom,3-5
+Small,Red,Hidden,maid,female,stick,3-5
+Medium,Blue,Hidden,maid,alien,alien weapon,0-2
+Big,Green,Visible,wizard,male,stick,3-5
+Medium,Green,Visible,viking,alien,broom,3-5
+Small,Blue,Hidden,viking,male,stick,3-5
+Big,Red,Visible,wizard,female,stick,3-5
+Medium,Green,Visible,maid,alien,broom,3-5
+Small,Red,Hidden,viking,male,axe,0-2
+Small,Green,Hidden,wizard,female,axe,0-2
+Medium,Red,Visible,maid,alien,broom,3-5
+Big,Blue,Visible,viking,male,stick,3-5
+Small,Green,Hidden,maid,female,axe,0-2
+Medium,Blue,Visible,wizard,alien,broom,3-5
+Big,Red,Visible,viking,male,axe,0-2
+Big,Green,Visible,wizard,female,stick,3-5
+Small,Blue,Hidden,maid,male,axe,0-2
+Medium,Red,Visible,viking,alien,broom,3-5
+Small,Blue,Hidden,wizard,female,axe,0-2
+Medium,Green,Visible,wizard,alien,broom,3-5
+Small,Red,Hidden,maid,male,axe,0-2
+Big,Green,Visible,viking,female,stick,3-5
+Medium,Blue,Visible,viking,alien,broom,3-5
+Small,Red,Hidden,maid,female,axe,0-2
+Big,Green,Visible,maid,male,stick,3-5
+Small,Blue,Hidden,wizard,male,axe,0-2
+Big,Red,Visible,maid,female,stick,3-5
+Small,Green,Hidden,viking,male,axe,0-2
+Big,Blue,Visible,viking,female,stick,3-5
+Small,Red,Hidden,wizard,male,axe,0-2
+Big,Green,Visible,maid,female,stick,3-5
+Small,Red,Hidden,wizard,female,axe,0-2
+Big,Blue,Visible,wizard,male,stick,3-5
+Small,Green,Hidden,viking,female,axe,0-2
+Big,Red,Visible,maid,male,stick,3-5
+Small,Blue,Hidden,viking,male,axe,0-2
+Small,Blue,Hidden,maid,female,axe,0-2
+Big,Red,Visible,wizard,male,stick,3-5
+Small,Green,Hidden,wizard,male,axe,0-2
+Big,Green,Visible,viking,female,axe,0-2
+Small,Blue,Hidden,viking,female,axe,0-2
+Big,Red,Visible,maid,male,axe,0-2
+Big,Green,Visible,wizard,female,axe,0-2
+Small,Green,Hidden,maid,male,axe,0-2
+Medium,Blue,Hidden,viking,female,alien weapon,3-5
+Big,Red,Visible,wizard,male,axe,0-2
+Medium,Blue,Hidden,maid,female,alien weapon,3-5
+Small,Red,Hidden,viking,female,axe,0-2
+Big,Green,Visible,wizard,male,axe,0-2
+Medium,Blue,Hidden,maid,male,alien weapon,3-5
+Big,Red,Visible,viking,female,axe,0-2
+Medium,Green,Hidden,wizard,male,alien weapon,3-5
+Big,Blue,Visible,maid,female,axe,0-2
+Medium,Red,Hidden,viking,male,alien weapon,3-5
+Big,Green,Visible,maid,female,axe,0-2
+Medium,Blue,Hidden,wizard,male,alien weapon,3-5
+Small,Red,Visible,viking,female,broom,0-2
+Medium,Green,Hidden,wizard,female,alien weapon,3-5
+Big,Blue,Visible,maid,male,axe,0-2
+Medium,Red,Hidden,viking,female,alien weapon,3-5
+Small,Green,Visible,wizard,male,broom,0-2
+Big,Red,Visible,maid,female,axe,0-2
+Medium,Blue,Hidden,viking,male,alien weapon,3-5
+Big,Green,Visible,maid,male,axe,0-2
+Medium,Blue,Hidden,wizard,female,alien weapon,3-5
+Small,Red,Visible,viking,male,broom,0-2
+Medium,Green,Hidden,maid,female,alien weapon,3-5
+Small,Blue,Visible,wizard,male,broom,0-2
+Medium,Red,Hidden,wizard,female,alien weapon,3-5
+Big,Green,Visible,viking,male,axe,0-2
+Small,Blue,Visible,maid,female,broom,0-2
+Medium,Red,Hidden,wizard,male,alien weapon,3-5
+Big,Blue,Visible,viking,female,axe,0-2
+Medium,Green,Hidden,maid,male,alien weapon,3-5
+Small,Red,Visible,wizard,female,broom,0-2
+Medium,Green,Hidden,viking,male,alien weapon,3-5
+Big,Blue,Visible,wizard,female,axe,0-2
+Medium,Red,Hidden,maid,male,alien weapon,3-5
+Small,Green,Visible,viking,female,broom,0-2
+Big,Blue,Visible,viking,male,axe,0-2
+Medium,Red,Hidden,maid,female,alien weapon,3-5
+Big,Blue,Visible,wizard,male,axe,0-2
+Medium,Green,Hidden,viking,female,alien weapon,3-5
+Small,Red,Visible,maid,male,broom,0-2
+Small,Green,Visible,wizard,female,broom,0-2
+Small,Blue,Visible,maid,male,broom,0-2
+Big,Red,Visible,wizard,female,axe,0-2
+Small,Green,Visible,viking,male,broom,0-2
+Small,Blue,Visible,viking,female,broom,0-2
+Small,Red,Visible,maid,female,broom,0-2
+Small,Green,Visible,maid,male,broom,0-2
+Small,Blue,Visible,wizard,female,broom,0-2
+Small,Red,Visible,wizard,male,broom,0-2
+Small,Green,Visible,maid,female,broom,0-2
+Small,Blue,Visible,viking,male,broom,0-2
+Small,Red,Visible,viking,alien,stick,3-5
+Small,Green,Visible,wizard,alien,stick,3-5
+Small,Blue,Visible,maid,alien,stick,3-5
+Big,Red,Hidden,viking,alien,stick,0-2
+Small,Green,Visible,maid,alien,stick,3-5
+Small,Blue,Visible,wizard,alien,stick,3-5
+Big,Red,Hidden,wizard,alien,stick,0-2
+Small,Green,Visible,viking,alien,stick,3-5
+Big,Blue,Hidden,maid,alien,stick,0-2
+Big,Red,Hidden,maid,alien,stick,0-2
+Small,Blue,Visible,viking,alien,stick,3-5
+Big,Green,Hidden,wizard,alien,stick,0-2
+Small,Red,Visible,wizard,alien,stick,3-5
+Big,Green,Hidden,viking,alien,stick,0-2
+Small,Red,Visible,maid,alien,stick,3-5
+Big,Blue,Hidden,viking,alien,stick,0-2
+Medium,Green,Visible,wizard,alien,alien weapon,3-5
+Big,Green,Hidden,maid,alien,stick,0-2
+Medium,Blue,Visible,viking,alien,alien weapon,3-5
+Big,Blue,Hidden,wizard,alien,stick,0-2
+Medium,Red,Visible,maid,alien,alien weapon,3-5
+Medium,Red,Visible,viking,alien,alien weapon,3-5
+Medium,Green,Visible,maid,alien,alien weapon,3-5
+Medium,Blue,Visible,wizard,alien,alien weapon,3-5
+Medium,Red,Visible,wizard,alien,alien weapon,3-5
+Medium,Green,Visible,viking,alien,alien weapon,3-5
+Medium,Blue,Visible,maid,alien,alien weapon,3-5
+Small,Red,Visible,viking,alien,axe,0-2
+Medium,Green,Hidden,wizard,alien,broom,3-5
+Small,Blue,Visible,maid,alien,axe,0-2
+Medium,Red,Hidden,viking,alien,broom,3-5
+Small,Green,Visible,wizard,alien,axe,0-2
+Medium,Blue,Hidden,maid,alien,broom,3-5
+Small,Red,Visible,wizard,alien,axe,0-2
+Medium,Green,Hidden,viking,alien,broom,3-5
+Medium,Red,Hidden,maid,alien,broom,3-5
+Small,Blue,Visible,viking,alien,axe,0-2
+Small,Green,Visible,maid,alien,axe,0-2
+Medium,Blue,Hidden,wizard,alien,broom,3-5
+Small,Red,Visible,maid,alien,axe,0-2
+Medium,Blue,Hidden,viking,alien,broom,3-5
+Small,Green,Visible,viking,alien,axe,0-2
+Medium,Red,Hidden,wizard,alien,broom,3-5
+Small,Blue,Visible,wizard,alien,axe,0-2
+Medium,Green,Hidden,maid,alien,broom,3-5
+Big,Red,Hidden,viking,male,stick,3-5
+Big,Green,Hidden,wizard,female,stick,3-5
+Big,Blue,Hidden,maid,male,stick,3-5
+Big,Red,Hidden,viking,female,stick,3-5
+Big,Green,Hidden,wizard,male,stick,3-5
+Big,Blue,Hidden,maid,female,stick,3-5
+Big,Red,Hidden,wizard,male,stick,3-5
+Big,Green,Hidden,viking,female,stick,3-5
+Big,Red,Hidden,maid,male,stick,3-5
+Big,Blue,Hidden,viking,female,stick,3-5
+Small,Green,Visible,wizard,male,alien weapon,0-2
+Big,Red,Hidden,maid,female,stick,3-5
+Small,Blue,Visible,viking,male,alien weapon,0-2
+Big,Green,Hidden,maid,female,stick,3-5
+Small,Blue,Visible,wizard,male,alien weapon,0-2
+Big,Red,Hidden,wizard,female,stick,3-5
+Small,Green,Visible,viking,male,alien weapon,0-2
+Big,Blue,Hidden,wizard,female,stick,3-5
+Small,Red,Visible,maid,male,alien weapon,0-2
+Big,Green,Hidden,viking,male,stick,3-5
+Small,Blue,Visible,maid,female,alien weapon,0-2
+Big,Green,Hidden,maid,male,stick,3-5
+Small,Red,Visible,viking,female,alien weapon,0-2
+Big,Blue,Hidden,wizard,male,stick,3-5
+Small,Red,Visible,wizard,female,alien weapon,0-2
+Big,Green,Hidden,viking,female,axe,0-2
+Small,Blue,Visible,maid,male,alien weapon,0-2
+Big,Blue,Hidden,viking,male,stick,3-5
+Small,Red,Visible,maid,female,alien weapon,0-2
+Big,Green,Hidden,wizard,female,axe,0-2
+Small,Red,Visible,viking,male,alien weapon,0-2
+Big,Green,Hidden,maid,female,axe,0-2
+Small,Blue,Visible,wizard,female,alien weapon,0-2
+Big,Red,Hidden,viking,male,axe,0-2
+Small,Green,Visible,wizard,female,alien weapon,0-2
+Big,Blue,Hidden,maid,male,axe,0-2
+Small,Red,Visible,wizard,male,alien weapon,0-2
+Small,Green,Visible,viking,female,axe,3-5
+Big,Blue,Hidden,maid,female,axe,0-2
+Small,Green,Visible,maid,male,alien weapon,0-2
+Big,Red,Hidden,viking,female,axe,0-2
+Small,Blue,Visible,wizard,male,axe,3-5
+Small,Green,Visible,viking,female,alien weapon,0-2
+Big,Red,Hidden,wizard,male,axe,0-2
+Small,Blue,Visible,maid,male,axe,3-5
+Small,Green,Visible,maid,female,alien weapon,0-2
+Big,Red,Hidden,wizard,female,axe,0-2
+Small,Blue,Visible,viking,male,axe,3-5
+Big,Red,Hidden,maid,male,axe,0-2
+Small,Blue,Visible,viking,female,alien weapon,0-2
+Small,Green,Visible,wizard,male,axe,3-5
+Big,Red,Hidden,maid,female,axe,0-2
+Small,Green,Visible,viking,male,axe,3-5
+Big,Blue,Hidden,wizard,female,axe,0-2
+Small,Red,Visible,viking,male,axe,3-5
+Big,Green,Hidden,wizard,male,axe,0-2
+Small,Blue,Visible,maid,female,axe,3-5
+Big,Blue,Hidden,viking,female,axe,0-2
+Small,Red,Hidden,wizard,male,broom,0-2
+Small,Green,Visible,maid,female,axe,3-5
+Big,Green,Hidden,viking,male,axe,0-2
+Small,Red,Visible,wizard,female,axe,3-5
+Small,Blue,Hidden,maid,male,broom,0-2
+Small,Red,Visible,viking,female,axe,3-5
+Big,Green,Hidden,maid,male,axe,0-2
+Small,Blue,Hidden,wizard,female,broom,0-2
+Small,Red,Visible,wizard,male,axe,3-5
+Small,Green,Hidden,viking,female,broom,0-2
+Big,Blue,Hidden,viking,male,axe,0-2
+Small,Red,Visible,maid,female,axe,3-5
+Big,Blue,Hidden,wizard,male,axe,0-2
+Small,Green,Hidden,maid,female,broom,0-2
+Small,Red,Visible,maid,male,axe,3-5
+Big,Green,Visible,viking,female,broom,0-2
+Small,Blue,Visible,wizard,female,axe,3-5
+Small,Red,Hidden,viking,male,broom,0-2
+Small,Green,Visible,wizard,female,axe,3-5
+Big,Blue,Visible,maid,male,broom,0-2
+Small,Red,Hidden,viking,female,broom,0-2
+Small,Green,Visible,maid,male,axe,3-5
+Big,Blue,Visible,wizard,male,broom,0-2
+Small,Red,Hidden,wizard,female,broom,0-2
+Small,Blue,Visible,viking,female,axe,3-5
+Big,Green,Visible,maid,male,broom,0-2
+Small,Red,Hidden,maid,male,broom,0-2
+Big,Green,Visible,wizard,female,broom,0-2
+Small,Blue,Hidden,viking,male,broom,0-2
+Big,Red,Visible,viking,female,broom,0-2
+Small,Green,Hidden,wizard,male,broom,0-2
+Big,Blue,Visible,maid,female,broom,0-2
+Small,Red,Hidden,maid,female,broom,0-2
+Big,Green,Visible,viking,male,broom,0-2
+Small,Blue,Hidden,wizard,male,broom,0-2
+Big,Red,Visible,wizard,female,broom,0-2
+Small,Green,Hidden,viking,male,broom,0-2
+Big,Red,Visible,maid,female,broom,0-2
+Small,Blue,Hidden,viking,female,broom,0-2
+Big,Green,Visible,wizard,male,broom,0-2
+Small,Blue,Hidden,maid,female,broom,0-2
+Big,Red,Visible,viking,male,broom,0-2
+Small,Green,Hidden,wizard,female,broom,0-2
+Big,Red,Visible,maid,male,broom,0-2
+Small,Green,Hidden,maid,male,broom,0-2
+Big,Blue,Visible,viking,female,broom,0-2
+Big,Blue,Visible,wizard,female,broom,0-2
+Big,Red,Visible,wizard,male,broom,0-2
+Big,Green,Visible,maid,female,broom,0-2
+Big,Blue,Visible,viking,male,broom,0-2
+Medium,Red,Hidden,viking,alien,alien weapon,3-5
+Medium,Green,Hidden,wizard,alien,alien weapon,3-5
+Medium,Blue,Hidden,maid,alien,alien weapon,3-5
+Medium,Red,Hidden,wizard,alien,alien weapon,3-5
+Medium,Green,Hidden,viking,alien,alien weapon,3-5
+Medium,Red,Hidden,maid,alien,alien weapon,3-5
+Medium,Blue,Hidden,viking,alien,alien weapon,3-5
+Medium,Green,Hidden,maid,alien,alien weapon,3-5
+Medium,Blue,Hidden,wizard,alien,alien weapon,3-5
+Small,Red,Hidden,viking,alien,stick,3-5
+Big,Green,Visible,wizard,alien,stick,3-5
+Small,Blue,Hidden,maid,alien,stick,3-5
+Big,Red,Visible,viking,alien,stick,3-5
+Small,Green,Hidden,wizard,alien,stick,3-5
+Big,Blue,Visible,maid,alien,stick,3-5
+Small,Red,Hidden,wizard,alien,stick,3-5
+Big,Green,Visible,viking,alien,stick,3-5
+Small,Red,Hidden,maid,alien,stick,3-5
+Big,Blue,Visible,viking,alien,stick,3-5
+Small,Green,Hidden,maid,alien,stick,3-5
+Big,Blue,Visible,wizard,alien,stick,3-5
+Big,Red,Visible,wizard,alien,stick,3-5
+Small,Green,Hidden,viking,alien,stick,3-5
+Big,Red,Visible,maid,alien,stick,3-5
+Small,Blue,Hidden,viking,alien,stick,3-5
+Small,Blue,Hidden,wizard,alien,stick,3-5
+Big,Green,Visible,maid,alien,stick,3-5
+Small,Red,Hidden,viking,alien,axe,0-2
+Big,Green,Visible,wizard,alien,axe,0-2
+Small,Blue,Hidden,maid,alien,axe,0-2
+Big,Red,Visible,viking,alien,axe,0-2
+Small,Green,Hidden,wizard,alien,axe,0-2
+Big,Blue,Visible,maid,alien,axe,0-2
+Small,Red,Hidden,wizard,alien,axe,0-2
+Big,Green,Visible,viking,alien,axe,0-2
+Small,Red,Hidden,maid,alien,axe,0-2
+Big,Blue,Visible,viking,alien,axe,0-2
+Small,Green,Hidden,maid,alien,axe,0-2
+Big,Blue,Visible,wizard,alien,axe,0-2
+Small,Green,Hidden,viking,alien,axe,0-2
+Big,Red,Visible,wizard,alien,axe,0-2
+Big,Red,Visible,maid,alien,axe,0-2
+Small,Blue,Hidden,viking,alien,axe,0-2
+Small,Blue,Hidden,wizard,alien,axe,0-2
+Big,Green,Visible,maid,alien,axe,0-2
+Small,Red,Visible,viking,alien,broom,0-2
+Small,Green,Visible,wizard,alien,broom,0-2
+Small,Blue,Visible,maid,alien,broom,0-2
+Small,Red,Visible,wizard,alien,broom,0-2
+Small,Green,Visible,viking,alien,broom,0-2
+Small,Red,Visible,maid,alien,broom,0-2
+Small,Blue,Visible,viking,alien,broom,0-2
+Small,Green,Visible,maid,alien,broom,0-2
+Small,Blue,Visible,wizard,alien,broom,0-2
+Small,Red,Hidden,viking,male,alien weapon,0-2
+Big,Green,Visible,wizard,female,alien weapon,0-2
+Small,Blue,Hidden,maid,male,alien weapon,0-2
+Big,Red,Visible,viking,female,alien weapon,0-2
+Small,Green,Hidden,wizard,male,alien weapon,0-2
+Big,Blue,Visible,maid,female,alien weapon,0-2
+Small,Red,Hidden,viking,female,alien weapon,0-2
+Big,Green,Visible,wizard,male,axe,3-5
+Big,Blue,Visible,maid,male,alien weapon,0-2
+Small,Red,Hidden,viking,female,axe,3-5
+Small,Green,Hidden,wizard,female,alien weapon,0-2
+Big,Blue,Visible,maid,male,axe,3-5
+Small,Red,Hidden,wizard,male,alien weapon,0-2
+Big,Green,Visible,viking,female,axe,3-5
+Small,Blue,Hidden,maid,female,alien weapon,0-2
+Big,Red,Visible,viking,male,axe,3-5
+Small,Green,Hidden,maid,male,alien weapon,0-2
+Big,Blue,Visible,wizard,female,axe,3-5
+Small,Red,Hidden,wizard,female,alien weapon,0-2
+Big,Green,Visible,viking,male,axe,3-5
+Small,Red,Hidden,maid,male,alien weapon,0-2
+Big,Blue,Visible,viking,female,axe,3-5
+Small,Green,Hidden,maid,female,alien weapon,0-2
+Big,Blue,Visible,wizard,male,axe,3-5
+Small,Red,Hidden,maid,female,alien weapon,0-2
+Big,Green,Visible,viking,male,alien weapon,0-2
+Small,Blue,Hidden,wizard,male,axe,3-5
+Big,Red,Visible,wizard,female,alien weapon,0-2
+Big,Green,Visible,maid,male,axe,3-5
+Small,Blue,Hidden,viking,female,alien weapon,0-2
+Small,Red,Hidden,viking,male,axe,3-5
+Big,Green,Visible,maid,female,alien weapon,0-2
+Small,Blue,Hidden,wizard,female,axe,3-5
+Big,Red,Visible,viking,male,alien weapon,0-2
+Small,Green,Hidden,wizard,male,axe,3-5
+Big,Red,Visible,maid,female,alien weapon,0-2
+Small,Blue,Hidden,viking,male,axe,3-5
+Big,Blue,Visible,wizard,female,alien weapon,0-2
+Small,Green,Hidden,maid,male,axe,3-5
+Big,Green,Visible,viking,female,alien weapon,0-2
+Small,Red,Hidden,wizard,male,axe,3-5
+Big,Blue,Visible,viking,female,alien weapon,0-2
+Small,Red,Hidden,maid,male,axe,3-5
+Big,Green,Visible,wizard,male,alien weapon,0-2
+Small,Blue,Hidden,maid,female,axe,3-5
+Big,Red,Visible,wizard,male,alien weapon,0-2
+Small,Green,Hidden,viking,female,alien weapon,0-2
+Big,Blue,Visible,maid,female,axe,3-5
+Big,Red,Visible,maid,male,alien weapon,0-2
+Small,Green,Hidden,viking,female,axe,3-5
+Small,Blue,Hidden,wizard,male,alien weapon,0-2
+Big,Red,Visible,viking,female,axe,3-5
+Small,Blue,Hidden,wizard,female,alien weapon,0-2
+Big,Red,Visible,maid,male,axe,3-5
+Small,Green,Hidden,viking,male,alien weapon,0-2
+Big,Green,Visible,wizard,female,axe,3-5
+Small,Blue,Hidden,viking,male,alien weapon,0-2
+Big,Red,Visible,maid,female,axe,3-5
+Big,Green,Visible,maid,male,alien weapon,0-2
+Small,Red,Hidden,wizard,female,axe,3-5
+Big,Blue,Visible,viking,male,alien weapon,0-2
+Small,Green,Hidden,wizard,female,axe,3-5
+Big,Blue,Visible,wizard,male,alien weapon,0-2
+Small,Red,Hidden,maid,female,axe,3-5
+Small,Green,Visible,viking,male,broom,3-5
+Small,Green,Hidden,maid,female,axe,3-5
+Big,Blue,Visible,viking,male,axe,3-5
+Small,Red,Visible,wizard,female,broom,3-5
+Small,Blue,Hidden,maid,male,axe,3-5
+Big,Red,Visible,wizard,female,axe,3-5
+Small,Green,Visible,viking,female,broom,3-5
+Small,Blue,Visible,maid,male,broom,3-5
+Small,Green,Hidden,viking,male,axe,3-5
+Big,Red,Visible,wizard,male,axe,3-5
+Big,Blue,Hidden,maid,female,broom,0-2
+Small,Blue,Hidden,viking,female,axe,3-5
+Big,Green,Visible,maid,female,axe,3-5
+Small,Red,Visible,wizard,male,broom,3-5
+Big,Red,Hidden,viking,male,broom,0-2
+Big,Green,Hidden,wizard,female,broom,0-2
+Small,Blue,Visible,maid,female,broom,3-5
+Small,Red,Visible,viking,male,broom,3-5
+Big,Green,Hidden,wizard,male,broom,0-2
+Small,Red,Visible,maid,female,broom,3-5
+Big,Blue,Hidden,viking,male,broom,0-2
+Small,Green,Visible,wizard,female,broom,3-5
+Big,Blue,Hidden,maid,male,broom,0-2
+Small,Red,Visible,viking,female,broom,3-5
+Big,Green,Hidden,maid,male,broom,0-2
+Small,Blue,Visible,wizard,female,broom,3-5
+Big,Red,Hidden,viking,female,broom,0-2
+Small,Green,Visible,wizard,male,broom,3-5
+Big,Red,Hidden,maid,male,broom,0-2
+Small,Blue,Visible,viking,female,broom,3-5
+Big,Green,Hidden,maid,female,broom,0-2
+Small,Blue,Visible,wizard,male,broom,3-5
+Big,Red,Hidden,wizard,male,broom,0-2
+Small,Green,Visible,maid,female,broom,3-5
+Big,Blue,Hidden,viking,female,broom,0-2
+Small,Red,Visible,maid,male,broom,3-5
+Big,Green,Hidden,viking,male,broom,0-2
+Big,Blue,Hidden,wizard,female,broom,0-2
+Small,Green,Visible,maid,male,broom,3-5
+Big,Red,Hidden,wizard,female,broom,0-2
+Small,Blue,Visible,viking,male,broom,3-5
+Big,Red,Hidden,maid,female,broom,0-2
+Big,Green,Hidden,viking,female,broom,0-2
+Big,Blue,Hidden,wizard,male,broom,0-2
+Big,Red,Hidden,viking,alien,stick,3-5
+Big,Green,Hidden,wizard,alien,stick,3-5
+Big,Blue,Hidden,maid,alien,stick,3-5
+Big,Red,Hidden,wizard,alien,stick,3-5
+Big,Green,Hidden,viking,alien,stick,3-5
+Big,Red,Hidden,maid,alien,stick,3-5
+Big,Blue,Hidden,viking,alien,stick,3-5
+Big,Green,Hidden,maid,alien,stick,3-5
+Big,Blue,Hidden,wizard,alien,stick,3-5
+Small,Red,Visible,viking,alien,alien weapon,0-2
+Small,Green,Visible,wizard,alien,alien weapon,0-2
+Small,Blue,Visible,maid,alien,alien weapon,0-2
+Small,Red,Visible,wizard,alien,alien weapon,0-2
+Small,Green,Visible,viking,alien,alien weapon,0-2
+Small,Red,Visible,maid,alien,alien weapon,0-2
+Small,Blue,Visible,viking,alien,alien weapon,0-2
+Small,Green,Visible,maid,alien,alien weapon,0-2
+Small,Blue,Visible,wizard,alien,alien weapon,0-2
+Small,Red,Visible,viking,alien,axe,3-5
+Small,Green,Visible,wizard,alien,axe,3-5
+Small,Blue,Visible,maid,alien,axe,3-5
+Big,Red,Hidden,viking,alien,axe,0-2
+Small,Green,Visible,maid,alien,axe,3-5
+Small,Blue,Visible,wizard,alien,axe,3-5
+Big,Red,Hidden,wizard,alien,axe,0-2
+Small,Green,Visible,viking,alien,axe,3-5
+Big,Blue,Hidden,maid,alien,axe,0-2
+Big,Red,Hidden,maid,alien,axe,0-2
+Small,Blue,Visible,viking,alien,axe,3-5
+Big,Green,Hidden,wizard,alien,axe,0-2
+Small,Red,Visible,wizard,alien,axe,3-5
+Big,Green,Hidden,viking,alien,axe,0-2
+Small,Red,Visible,maid,alien,axe,3-5
+Big,Blue,Hidden,viking,alien,axe,0-2
+Big,Green,Hidden,maid,alien,axe,0-2
+Big,Blue,Hidden,wizard,alien,axe,0-2
+Small,Red,Hidden,viking,alien,broom,0-2
+Big,Green,Visible,wizard,alien,broom,0-2
+Small,Blue,Hidden,maid,alien,broom,0-2
+Big,Red,Visible,viking,alien,broom,0-2
+Small,Green,Hidden,wizard,alien,broom,0-2
+Big,Blue,Visible,maid,alien,broom,0-2
+Small,Red,Hidden,wizard,alien,broom,0-2
+Big,Green,Visible,viking,alien,broom,0-2
+Big,Red,Visible,maid,alien,broom,0-2
+Small,Blue,Hidden,viking,alien,broom,0-2
+Small,Green,Hidden,maid,alien,broom,0-2
+Big,Blue,Visible,wizard,alien,broom,0-2
+Small,Red,Hidden,maid,alien,broom,0-2
+Big,Blue,Visible,viking,alien,broom,0-2
+Small,Green,Hidden,viking,alien,broom,0-2
+Big,Red,Visible,wizard,alien,broom,0-2
+Small,Green,Visible,wizard,male,alien weapon,3-5
+Small,Blue,Visible,maid,female,alien weapon,3-5
+Small,Blue,Hidden,wizard,alien,broom,0-2
+Big,Green,Visible,maid,alien,broom,0-2
+Small,Red,Visible,viking,male,alien weapon,3-5
+Small,Red,Visible,viking,female,alien weapon,3-5
+Small,Green,Visible,wizard,female,alien weapon,3-5
+Small,Blue,Visible,maid,male,alien weapon,3-5
+Small,Red,Visible,wizard,male,alien weapon,3-5
+Small,Green,Visible,viking,female,alien weapon,3-5
+Small,Red,Visible,maid,male,alien weapon,3-5
+Small,Blue,Visible,viking,female,alien weapon,3-5
+Big,Green,Hidden,wizard,male,alien weapon,0-2
+Big,Blue,Hidden,maid,female,alien weapon,0-2
+Small,Red,Visible,wizard,female,alien weapon,3-5
+Small,Green,Visible,viking,male,alien weapon,3-5
+Big,Blue,Hidden,maid,male,alien weapon,0-2
+Small,Red,Visible,maid,female,alien weapon,3-5
+Big,Green,Hidden,viking,male,alien weapon,0-2
+Big,Blue,Hidden,wizard,female,alien weapon,0-2
+Small,Green,Visible,maid,male,alien weapon,3-5
+Small,Blue,Visible,wizard,female,alien weapon,3-5
+Big,Red,Hidden,viking,male,alien weapon,0-2
+Small,Green,Visible,maid,female,alien weapon,3-5
+Big,Red,Hidden,viking,female,alien weapon,0-2
+Small,Blue,Visible,wizard,male,alien weapon,3-5
+Big,Red,Hidden,wizard,male,alien weapon,0-2
+Big,Green,Hidden,viking,female,alien weapon,0-2
+Small,Blue,Visible,viking,male,alien weapon,3-5
+Big,Red,Hidden,maid,female,alien weapon,0-2
+Big,Green,Hidden,wizard,female,alien weapon,0-2
+Big,Blue,Hidden,maid,male,axe,3-5
+Big,Red,Hidden,wizard,female,alien weapon,0-2
+Big,Green,Hidden,viking,male,axe,3-5
+Big,Blue,Hidden,viking,male,alien weapon,0-2
+Big,Green,Hidden,maid,female,alien weapon,0-2
+Big,Red,Hidden,wizard,male,axe,3-5
+Big,Blue,Hidden,maid,female,axe,3-5
+Big,Red,Hidden,maid,male,alien weapon,0-2
+Big,Blue,Hidden,viking,female,alien weapon,0-2
+Big,Green,Hidden,wizard,male,axe,3-5
+Big,Red,Hidden,viking,female,axe,3-5
+Big,Green,Hidden,maid,male,alien weapon,0-2
+Big,Blue,Hidden,wizard,male,alien weapon,0-2
+Big,Red,Hidden,wizard,female,axe,3-5
+Big,Green,Hidden,viking,female,axe,3-5
+Big,Red,Hidden,maid,male,axe,3-5
+Big,Blue,Hidden,viking,female,axe,3-5
+Big,Green,Hidden,wizard,female,axe,3-5
+Big,Green,Hidden,maid,male,axe,3-5
+Big,Blue,Hidden,viking,male,axe,3-5
+Big,Red,Hidden,maid,female,axe,3-5
+Small,Blue,Hidden,wizard,male,broom,3-5
+Big,Red,Visible,viking,female,broom,3-5
+Big,Green,Hidden,maid,female,axe,3-5
+Big,Blue,Visible,wizard,male,broom,3-5
+Small,Red,Hidden,viking,male,broom,3-5
+Big,Blue,Hidden,wizard,female,axe,3-5
+Small,Green,Hidden,maid,male,broom,3-5
+Big,Red,Visible,wizard,female,broom,3-5
+Big,Red,Hidden,viking,male,axe,3-5
+Big,Green,Visible,maid,female,broom,3-5
+Small,Blue,Hidden,viking,male,broom,3-5
+Big,Blue,Hidden,wizard,male,axe,3-5
+Small,Green,Hidden,maid,female,broom,3-5
+Big,Red,Visible,maid,female,broom,3-5
+Small,Green,Hidden,viking,male,broom,3-5
+Big,Blue,Visible,wizard,female,broom,3-5
+Small,Red,Hidden,viking,female,broom,3-5
+Big,Green,Visible,wizard,male,broom,3-5
+Big,Blue,Visible,maid,male,broom,3-5
+Small,Red,Hidden,wizard,female,broom,3-5
+Small,Green,Hidden,viking,female,broom,3-5
+Big,Blue,Visible,viking,male,broom,3-5
+Small,Red,Hidden,maid,male,broom,3-5
+Big,Green,Visible,wizard,female,broom,3-5
+Big,Blue,Visible,maid,female,broom,3-5
+Small,Red,Hidden,wizard,male,broom,3-5
+Big,Green,Visible,viking,male,broom,3-5
+Small,Blue,Hidden,maid,female,broom,3-5
+Small,Red,Hidden,maid,female,broom,3-5
+Big,Red,Visible,viking,male,broom,3-5
+Small,Green,Hidden,wizard,male,broom,3-5
+Big,Blue,Visible,viking,female,broom,3-5
+Small,Green,Hidden,wizard,female,broom,3-5
+Big,Red,Visible,maid,male,broom,3-5
+Small,Blue,Hidden,viking,female,broom,3-5
+Big,Green,Visible,maid,male,broom,3-5
+Small,Blue,Hidden,wizard,female,broom,3-5
+Big,Red,Visible,wizard,male,broom,3-5
+Small,Blue,Hidden,maid,male,broom,3-5
+Big,Green,Visible,viking,female,broom,3-5
+Small,Red,Hidden,viking,alien,alien weapon,0-2
+Big,Green,Visible,wizard,alien,alien weapon,0-2
+Small,Blue,Hidden,maid,alien,alien weapon,0-2
+Big,Red,Visible,viking,alien,alien weapon,0-2
+Big,Green,Visible,maid,alien,alien weapon,0-2
+Small,Blue,Hidden,wizard,alien,alien weapon,0-2
+Small,Red,Hidden,wizard,alien,alien weapon,0-2
+Big,Green,Visible,viking,alien,alien weapon,0-2
+Big,Blue,Visible,maid,alien,alien weapon,0-2
+Small,Red,Hidden,maid,alien,alien weapon,0-2
+Small,Green,Hidden,viking,alien,alien weapon,0-2
+Big,Blue,Visible,wizard,alien,alien weapon,0-2
+Small,Green,Hidden,wizard,alien,alien weapon,0-2
+Big,Red,Visible,maid,alien,alien weapon,0-2
+Small,Blue,Hidden,viking,alien,alien weapon,0-2
+Big,Red,Visible,wizard,alien,alien weapon,0-2
+Small,Green,Hidden,maid,alien,alien weapon,0-2
+Big,Blue,Visible,viking,alien,alien weapon,0-2
+Small,Red,Hidden,viking,alien,axe,3-5
+Big,Green,Visible,wizard,alien,axe,3-5
+Big,Blue,Visible,maid,alien,axe,3-5
+Small,Red,Hidden,wizard,alien,axe,3-5
+Small,Green,Hidden,viking,alien,axe,3-5
+Big,Red,Visible,maid,alien,axe,3-5
+Big,Blue,Visible,viking,alien,axe,3-5
+Small,Green,Hidden,wizard,alien,axe,3-5
+Small,Blue,Hidden,maid,alien,axe,3-5
+Big,Red,Visible,viking,alien,axe,3-5
+Small,Green,Hidden,maid,alien,axe,3-5
+Big,Blue,Visible,wizard,alien,axe,3-5
+Small,Red,Hidden,maid,alien,axe,3-5
+Big,Green,Visible,viking,alien,axe,3-5
+Small,Blue,Hidden,wizard,alien,axe,3-5
+Big,Red,Visible,wizard,alien,axe,3-5
+Small,Blue,Hidden,viking,alien,axe,3-5
+Big,Green,Visible,maid,alien,axe,3-5
+Small,Red,Visible,viking,alien,broom,3-5
+Small,Green,Visible,wizard,alien,broom,3-5
+Small,Blue,Visible,maid,alien,broom,3-5
+Small,Red,Visible,wizard,alien,broom,3-5
+Big,Green,Hidden,viking,alien,broom,0-2
+Big,Blue,Hidden,maid,alien,broom,0-2
+Small,Red,Visible,maid,alien,broom,3-5
+Small,Green,Visible,viking,alien,broom,3-5
+Big,Blue,Hidden,wizard,alien,broom,0-2
+Big,Red,Hidden,viking,alien,broom,0-2
+Small,Green,Visible,maid,alien,broom,3-5
+Small,Blue,Visible,wizard,alien,broom,3-5
+Big,Red,Hidden,wizard,alien,broom,0-2
+Small,Blue,Visible,viking,alien,broom,3-5
+Big,Green,Hidden,maid,alien,broom,0-2
+Big,Red,Hidden,maid,alien,broom,0-2
+Big,Green,Hidden,wizard,alien,broom,0-2
+Big,Blue,Hidden,viking,alien,broom,0-2
+Big,Red,Visible,viking,male,alien weapon,3-5
+Small,Green,Hidden,wizard,female,alien weapon,3-5
+Small,Blue,Hidden,maid,male,alien weapon,3-5
+Big,Red,Visible,viking,female,alien weapon,3-5
+Big,Green,Visible,wizard,male,alien weapon,3-5
+Small,Blue,Hidden,maid,female,alien weapon,3-5
+Small,Red,Hidden,viking,male,alien weapon,3-5
+Big,Green,Visible,wizard,female,alien weapon,3-5
+Big,Blue,Visible,maid,male,alien weapon,3-5
+Small,Red,Hidden,viking,female,alien weapon,3-5
+Small,Green,Hidden,wizard,male,alien weapon,3-5
+Big,Blue,Visible,maid,female,alien weapon,3-5
+Small,Red,Hidden,wizard,male,alien weapon,3-5
+Big,Green,Visible,viking,female,alien weapon,3-5
+Small,Red,Hidden,maid,male,alien weapon,3-5
+Big,Blue,Visible,viking,female,alien weapon,3-5
+Small,Green,Hidden,maid,male,alien weapon,3-5
+Big,Blue,Visible,wizard,female,alien weapon,3-5
+Small,Red,Hidden,wizard,female,alien weapon,3-5
+Big,Green,Visible,viking,male,alien weapon,3-5
+Small,Red,Hidden,maid,female,alien weapon,3-5
+Big,Blue,Visible,viking,male,alien weapon,3-5
+Small,Green,Hidden,maid,female,alien weapon,3-5
+Big,Blue,Visible,wizard,male,alien weapon,3-5
+Small,Green,Hidden,viking,male,alien weapon,3-5
+Big,Red,Visible,wizard,female,alien weapon,3-5
+Small,Blue,Hidden,viking,male,alien weapon,3-5
+Big,Red,Visible,maid,female,alien weapon,3-5
+Big,Green,Visible,maid,male,alien weapon,3-5
+Small,Blue,Hidden,wizard,female,alien weapon,3-5
+Small,Green,Hidden,viking,female,alien weapon,3-5
+Big,Red,Visible,wizard,male,alien weapon,3-5
+Small,Blue,Hidden,viking,female,alien weapon,3-5
+Big,Red,Visible,maid,male,alien weapon,3-5
+Small,Blue,Hidden,wizard,male,alien weapon,3-5
+Big,Green,Visible,maid,female,alien weapon,3-5
+Big,Red,Hidden,viking,male,broom,3-5
+Big,Green,Hidden,wizard,female,broom,3-5
+Big,Blue,Hidden,maid,male,broom,3-5
+Big,Red,Hidden,viking,female,broom,3-5
+Big,Green,Hidden,wizard,male,broom,3-5
+Big,Blue,Hidden,maid,female,broom,3-5
+Big,Red,Hidden,wizard,male,broom,3-5
+Big,Green,Hidden,viking,female,broom,3-5
+Big,Red,Hidden,maid,male,broom,3-5
+Big,Blue,Hidden,viking,female,broom,3-5
+Big,Green,Hidden,maid,male,broom,3-5
+Big,Blue,Hidden,wizard,female,broom,3-5
+Big,Red,Hidden,wizard,female,broom,3-5
+Big,Green,Hidden,viking,male,broom,3-5
+Big,Blue,Hidden,viking,male,broom,3-5
+Big,Red,Hidden,maid,female,broom,3-5
+Big,Green,Hidden,maid,female,broom,3-5
+Big,Blue,Hidden,wizard,male,broom,3-5
+Big,Red,Hidden,viking,alien,alien weapon,0-2
+Big,Green,Hidden,wizard,alien,alien weapon,0-2
+Big,Blue,Hidden,maid,alien,alien weapon,0-2
+Small,Red,Visible,viking,alien,alien weapon,3-5
+Big,Green,Hidden,maid,alien,alien weapon,0-2
+Small,Blue,Visible,wizard,alien,alien weapon,3-5
+Big,Red,Hidden,wizard,alien,alien weapon,0-2
+Big,Green,Hidden,viking,alien,alien weapon,0-2
+Small,Blue,Visible,maid,alien,alien weapon,3-5
+Small,Red,Visible,wizard,alien,alien weapon,3-5
+Big,Blue,Hidden,viking,alien,alien weapon,0-2
+Small,Green,Visible,maid,alien,alien weapon,3-5
+Big,Red,Hidden,maid,alien,alien weapon,0-2
+Small,Green,Visible,viking,alien,alien weapon,3-5
+Big,Blue,Hidden,wizard,alien,alien weapon,0-2
+Small,Red,Visible,maid,alien,alien weapon,3-5
+Small,Green,Visible,wizard,alien,alien weapon,3-5
+Small,Blue,Visible,viking,alien,alien weapon,3-5
+Big,Red,Hidden,viking,alien,axe,3-5
+Big,Green,Hidden,wizard,alien,axe,3-5
+Big,Blue,Hidden,maid,alien,axe,3-5
+Big,Red,Hidden,wizard,alien,axe,3-5
+Big,Green,Hidden,viking,alien,axe,3-5
+Big,Red,Hidden,maid,alien,axe,3-5
+Big,Blue,Hidden,viking,alien,axe,3-5
+Big,Green,Hidden,maid,alien,axe,3-5
+Big,Blue,Hidden,wizard,alien,axe,3-5
+Big,Red,Visible,viking,alien,broom,3-5
+Small,Green,Hidden,wizard,alien,broom,3-5
+Small,Blue,Hidden,maid,alien,broom,3-5
+Big,Red,Visible,wizard,alien,broom,3-5
+Small,Green,Hidden,viking,alien,broom,3-5
+Big,Blue,Visible,maid,alien,broom,3-5
+Small,Red,Hidden,viking,alien,broom,3-5
+Big,Green,Visible,wizard,alien,broom,3-5
+Big,Red,Visible,maid,alien,broom,3-5
+Small,Blue,Hidden,viking,alien,broom,3-5
+Big,Green,Visible,maid,alien,broom,3-5
+Small,Blue,Hidden,wizard,alien,broom,3-5
+Small,Red,Hidden,wizard,alien,broom,3-5
+Big,Green,Visible,viking,alien,broom,3-5
+Small,Red,Hidden,maid,alien,broom,3-5
+Big,Blue,Visible,viking,alien,broom,3-5
+Small,Green,Hidden,maid,alien,broom,3-5
+Big,Blue,Visible,wizard,alien,broom,3-5
+Big,Red,Hidden,viking,male,alien weapon,3-5
+Big,Green,Hidden,wizard,female,alien weapon,3-5
+Big,Blue,Hidden,maid,male,alien weapon,3-5
+Big,Red,Hidden,viking,female,alien weapon,3-5
+Big,Green,Hidden,wizard,male,alien weapon,3-5
+Big,Blue,Hidden,maid,female,alien weapon,3-5
+Big,Red,Hidden,wizard,male,alien weapon,3-5
+Big,Green,Hidden,viking,female,alien weapon,3-5
+Big,Blue,Hidden,viking,male,alien weapon,3-5
+Big,Red,Hidden,maid,female,alien weapon,3-5
+Big,Green,Hidden,maid,male,alien weapon,3-5
+Big,Blue,Hidden,wizard,female,alien weapon,3-5
+Big,Red,Hidden,wizard,female,alien weapon,3-5
+Big,Green,Hidden,viking,male,alien weapon,3-5
+Big,Red,Hidden,maid,male,alien weapon,3-5
+Big,Blue,Hidden,viking,female,alien weapon,3-5
+Big,Green,Hidden,maid,female,alien weapon,3-5
+Big,Blue,Hidden,wizard,male,alien weapon,3-5
+Small,Red,Hidden,viking,alien,alien weapon,3-5
+Big,Green,Visible,wizard,alien,alien weapon,3-5
+Big,Blue,Visible,maid,alien,alien weapon,3-5
+Small,Red,Hidden,wizard,alien,alien weapon,3-5
+Small,Green,Hidden,viking,alien,alien weapon,3-5
+Big,Red,Visible,maid,alien,alien weapon,3-5
+Small,Blue,Hidden,viking,alien,alien weapon,3-5
+Big,Green,Visible,maid,alien,alien weapon,3-5
+Small,Blue,Hidden,wizard,alien,alien weapon,3-5
+Big,Red,Visible,viking,alien,alien weapon,3-5
+Small,Green,Hidden,wizard,alien,alien weapon,3-5
+Big,Blue,Visible,viking,alien,alien weapon,3-5
+Small,Red,Hidden,maid,alien,alien weapon,3-5
+Big,Blue,Visible,wizard,alien,alien weapon,3-5
+Small,Green,Hidden,maid,alien,alien weapon,3-5
+Big,Red,Visible,wizard,alien,alien weapon,3-5
+Small,Blue,Hidden,maid,alien,alien weapon,3-5
+Big,Green,Visible,viking,alien,alien weapon,3-5
+Big,Red,Hidden,viking,alien,broom,3-5
+Big,Green,Hidden,wizard,alien,broom,3-5
+Big,Blue,Hidden,maid,alien,broom,3-5
+Big,Red,Hidden,wizard,alien,broom,3-5
+Big,Green,Hidden,viking,alien,broom,3-5
+Big,Red,Hidden,maid,alien,broom,3-5
+Big,Blue,Hidden,viking,alien,broom,3-5
+Big,Green,Hidden,maid,alien,broom,3-5
+Big,Blue,Hidden,wizard,alien,broom,3-5
+Big,Red,Hidden,viking,alien,alien weapon,3-5
+Big,Green,Hidden,wizard,alien,alien weapon,3-5
+Big,Blue,Hidden,maid,alien,alien weapon,3-5
+Big,Red,Hidden,wizard,alien,alien weapon,3-5
+Big,Green,Hidden,viking,alien,alien weapon,3-5
+Big,Red,Hidden,maid,alien,alien weapon,3-5
+Big,Blue,Hidden,viking,alien,alien weapon,3-5
+Big,Green,Hidden,maid,alien,alien weapon,3-5
+Big,Blue,Hidden,wizard,alien,alien weapon,3-5

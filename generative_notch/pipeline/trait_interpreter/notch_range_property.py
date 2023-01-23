@@ -1,20 +1,30 @@
+from attrs import define
 from random import randrange
 from .trait_interpreter import TraitInterpreter
+from ..trait_assembler.notch import NotchTraitAssembler
 
 
+@define
 class NotchRangePropertyInterpreter(TraitInterpreter):
     """
-    Range is written in form of "x-y" string.
-    """
-    def run(self, feature_name: str, trait_name: str):
-        node = self._get_properties(feature_name)['node']
-        props = self._get_properties(feature_name)['property']
+    Passthrough interpreter intended to work with NotchAssembler.
 
-        start, stop = trait_name.split('-')
+    Range is written in form of "x-y" string.
+    Sample data that this interpreter expects from config:
+    {
+        node: $F_Text
+        property: Attribute, Text
+    }
+    """
+
+    compatible_assembler = NotchTraitAssembler
+
+    def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        start, stop = trait_value.split('-')
         drawn = randrange(int(start), int(stop), 1)
 
-        self._add_instruction({
-            'node': node,
-            'property': props,
+        return {
+            'node': feature_properties['node'],
+            'property': feature_properties['property'],
             'value': str(drawn)
-        })
+        }

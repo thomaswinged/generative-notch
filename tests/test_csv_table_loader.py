@@ -4,7 +4,7 @@ from pandas.testing import assert_frame_equal
 from generative_notch.pipeline.table_loader.csv import CSVTableLoader
 
 
-CSV_FILEPATH = r'D:\git\generative_notch\tests\data\debug_data.csv'
+CSV_FILEPATH = r'D:\git\generative_notch\tests\data\rarity_table.csv'
 
 
 class TestCSVTableLoader(unittest.TestCase):

@@ -2,11 +2,11 @@ from .trait_interpreter import TraitInterpreter
 
 
 class StableDiffusionKeywordTraitInterpreter(TraitInterpreter):
-    def run(self, feature_name: str, trait_name: str):
-        word = trait_name
-        substitutes = self._get_properties(feature_name)['substitutes']
-
-        self._add_instruction({
-            word: word,
-            substitutes: substitutes
-        })
+    """
+    Passthrough interpreter intended to work with StableDiffusionAssembler.
+    """
+    def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        return {
+            'word': trait_value,
+            'substitutes': feature_properties['substitutes']
+        }

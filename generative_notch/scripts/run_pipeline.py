@@ -2,6 +2,7 @@ import argparse
 import os
 from generative_notch import get_config, init_logger
 from generative_notch.pipeline.pipeline import Pipeline
+from generative_notch.pipeline.table_loader.csv import CSVTableLoader
 from generative_notch.pipeline.table_loader.google_sheets import GoogleSheetsTableLoader
 from generative_notch.pipeline.table_preprocessor.rescale_target_weights import NormalizeWeightsTablePreprocessor
 from generative_notch.pipeline.combination_generator.target_weight_based import TargetWeightBasedCombinationGenerator
@@ -19,42 +20,47 @@ init_logger()
 parser = argparse.ArgumentParser()
 parser.add_argument('config')
 parser.add_argument('-count', '--n', dest='count', type=int)
-args = parser.parse_args()
+# args = parser.parse_args()
+# For testing purposes in order to debug in IDE
+args = parser.parse_args([r'D:\git\generative_notch\generative_notch\config\config.yml', '--n', '200'])
 # TODO Handle various config files
 
 config = get_config(args.config)
 
 
-
 (
     Pipeline()
-    .tableLoader.set(
-        GoogleSheetsTableLoader(
-            google_sheets_config=config['google_sheets']
-        )
-    )
-    .tablePreprocessor.register(
-        NormalizeWeightsTablePreprocessor(
-            table_config=config['table']
-        )
-    )
-    .combinationGenerator.set(
-        TargetWeightBasedCombinationGenerator(
-            n=args.count,
-            save_filepath=config['output_dir'],
-            table_config=config['table']
-        )
-    )
-    # .traitInterpreter.register(
-    #     NotchPropertyTraitInterpreter(
-    #         action='set_single_notch_property',
-    #         compatible_assembler=NotchTraitAssembler
+    # .tableLoader.set(
+    #     GoogleSheetsTableLoader(
+    #         google_sheets_config=config['google_sheets']
     #     )
     # )
+    # .tablePreprocessor.register(
+    #     NormalizeWeightsTablePreprocessor(
+    #         table_config=config['table']
+    #     )
+    # )
+    # .combinationGenerator.set(
+    #     TargetWeightBasedCombinationGenerator(
+    #         n=args.count,
+    #         save_filepath=config['output_dir'],
+    #         table_config=config['table']
+    #     )
+    # )
+    .tableLoader.set(
+        CSVTableLoader(
+            filepath=r'D:\git\generative_notch\tests\data\combinations.csv'
+        )
+    )
+    .traitInterpreter.register(
+        NotchPropertyTraitInterpreter(
+            action='set_single_notch_property',
+            config=config
+        )
+    )
     # .traitInterpreter.register(
     #     NotchRangePropertyInterpreter(
     #         action='set_single_notch_property_in_range',
-    #         compatible_assembler=NotchTraitAssembler,
     #         config=config
     #     )
     # )
