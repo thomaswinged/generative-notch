@@ -1,0 +1,21 @@
+feature_name,trait_name,target_weight
+Scale,Small,1.0
+Scale,Medium,3.0
+Scale,Big,0.5
+Color,Red,1.0
+Color,Green,1.0
+Color,Blue,1.0
+Visible,Visible,1.0
+Visible,Hidden,0.5
+Profession,viking,1.0
+Profession,wizard,1.0
+Profession,maid,1.0
+Gender,male,1.0
+Gender,female,1.0
+Gender,alien,0.2
+Holding,stick,2.0
+Holding,axe,1.0
+Holding,broom,0.5
+Holding,alien weapon,0.1
+Power,0-2,2.0
+Power,3-5,1.0
