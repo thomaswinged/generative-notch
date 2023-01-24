@@ -1,9 +1,8 @@
-from attrs import define
+from typing import Type
 from .trait_interpreter import TraitInterpreter
-from ..trait_assembler.notch import NotchTraitAssembler
+from ..trait_assembler.notch import TraitAssembler, NotchTraitAssembler
 
 
-@define
 class NotchPropertyTraitInterpreter(TraitInterpreter):
     """
     Passthrough interpreter intended to work with NotchAssembler.
@@ -18,7 +17,9 @@ class NotchPropertyTraitInterpreter(TraitInterpreter):
           Blue: 0, 0, 1, 1
     }
     """
-    compatible_assembler = NotchTraitAssembler
+
+    def get_compatible_assembler(self) -> Type[TraitAssembler]:
+        return NotchTraitAssembler
 
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
         return {

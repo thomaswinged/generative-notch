@@ -58,19 +58,18 @@ config = get_config(args.config)
             config=config
         )
     )
-    # .traitInterpreter.register(
-    #     NotchRangePropertyInterpreter(
-    #         action='set_single_notch_property_in_range',
-    #         config=config
-    #     )
-    # )
-    # .traitInterpreter.register(
-    #     StableDiffusionKeywordTraitInterpreter(
-    #         action='substitute_stable_diffusion_keyword',
-    #         compatible_assembler=StableDiffusionTraitAssembler,
-    #         config=config
-    #     )
-    # )
+    .traitInterpreter.register(
+        NotchRangePropertyInterpreter(
+            action='set_single_notch_property_in_range',
+            config=config
+        )
+    )
+    .traitInterpreter.register(
+        StableDiffusionKeywordTraitInterpreter(
+            action='substitute_stable_diffusion_keyword',
+            config=config
+        )
+    )
     # .traitAssembler.register(
     #     StableDiffusionTraitAssembler(
     #         compatible_renderer=StableDiffusionRenderer,

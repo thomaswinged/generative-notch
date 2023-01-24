@@ -1,8 +1,7 @@
-from typing import Type
+from typing import Type, Tuple
 from abc import ABC, abstractmethod
 from attrs import define, field
-from attrs.validators import optional, instance_of
-from ..trait_assembler.trait_assembler import TraitAssembler, AssemblyInstructions
+from ..trait_assembler.trait_assembler import TraitAssembler
 
 
 @define
@@ -12,13 +11,18 @@ class TraitInterpreter(ABC):
 
     :param action: keyword that interpreter looks for
     :param config: a dictionary from which interpreter reads feature properties
-    :param compatible_assembler: can be specified during instantiation of interpreter or inside derived class
     :param assembly_instructions: a collection of interpreted traits, prepared for assembly
     """
     action: str
     config: dict
-    compatible_assembler: TraitAssembler = field(default=None, validator=optional(instance_of(Type[TraitAssembler])))
     assembly_instructions: list[dict] = field(factory=list, init=False)
+
+    @abstractmethod
+    def get_compatible_assembler(self) -> Type[TraitAssembler]:
+        """
+        Should return assembler type that is compatible with instructions interpreted by derived TraitInterpreter
+        """
+        pass
 
     def run(self, feature_name: str, trait_value: str) -> None:
         """
@@ -38,7 +42,7 @@ class TraitInterpreter(ABC):
     @abstractmethod
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
         """
-        The only method that derived classes needs to override.
+        Defines a method of interpreting the trait
         Return assembly instruction, e.g.:
         {
             'node': '$F_MyText',
@@ -52,14 +56,12 @@ class TraitInterpreter(ABC):
         """
         pass
 
-    def get_result(self) -> AssemblyInstructions:
+    def get_result(self) -> Tuple[Type['TraitAssembler'], list[dict]]:
         """
         Returns all instructions for compatible assembler gathered via interpreting provided traits.
-        :return: assembly instructions
+        :return: compatible assembler and matching instructions
         """
-        if not self.compatible_assembler:
+        if not self.get_compatible_assembler():
             raise ValueError(f'Compatible interpreter not specified!')
 
-        return {
-            self.compatible_assembler: self.assembly_instructions
-        }
+        return self.get_compatible_assembler(), self.assembly_instructions

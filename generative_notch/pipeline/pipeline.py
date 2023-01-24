@@ -79,16 +79,19 @@ class TraitInterpreterPipelineModule:
     def run(self, combinations: pd.DataFrame) -> dict[int, AssemblyInstructions]:
         result: dict[int, AssemblyInstructions] = {}
 
-        for interpreter in self.interpreters:
-            for idx, combination in combinations.iterrows():
-                combination_id = int(str(idx))
+        for idx, combination in combinations.iterrows():
+            combination_id = int(str(idx))
+            result[combination_id] = {}
 
+            for interpreter in self.interpreters:
                 for feature, trait in combination.items():
                     interpreter.run(str(feature), trait)
 
-                result[combination_id] = defaultdict(AssemblyInstructions)
-                for assembler_type, partial_instructions in interpreter.get_result():
-                    result[combination_id][assembler_type].extend(partial_instructions)
+                assembler, instructions = interpreter.get_result()
+                if assembler not in result[combination_id]:
+                    result[combination_id][assembler]: list[dict] = []
+                result[combination_id][assembler].extend(instructions)
+                instructions.clear()
 
         return result
 
