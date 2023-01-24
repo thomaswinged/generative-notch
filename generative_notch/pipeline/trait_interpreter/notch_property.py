@@ -19,9 +19,10 @@ class NotchPropertyTraitInterpreter(TraitInterpreter):
     }
     """
     compatible_assembler = NotchTraitAssembler
+
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
         return {
             'node': feature_properties['node'],
             'property': feature_properties['property'],
-            'value': trait_value
+            'value': feature_properties['options'][trait_value]
         }
