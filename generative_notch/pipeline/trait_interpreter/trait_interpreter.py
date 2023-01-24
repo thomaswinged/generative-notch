@@ -1,6 +1,7 @@
 from typing import Type
 from abc import ABC, abstractmethod
-from attrs import define, field, validators
+from attrs import define, field
+from attrs.validators import optional, instance_of
 from ..trait_assembler.trait_assembler import TraitAssembler, AssemblyInstructions
 
 
@@ -16,7 +17,7 @@ class TraitInterpreter(ABC):
     """
     action: str
     config: dict
-    compatible_assembler: field(default=None, validator=validators.optional(validators.instance_of(Type[TraitAssembler])))
+    compatible_assembler: TraitAssembler = field(default=None, validator=optional(instance_of(Type[TraitAssembler])))
     assembly_instructions: list[dict] = field(factory=list, init=False)
 
     def run(self, feature_name: str, trait_value: str) -> None:

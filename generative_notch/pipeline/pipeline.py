@@ -58,11 +58,12 @@ class CombinationGeneratorPipelineModule:
     generator: CombinationGenerator = field(init=False)
 
     def run(self, table: pd.DataFrame) -> pd.DataFrame:
-        try:
-            result = self.generator.run(table)
-            return result
-        except AttributeError:
-            raise NotRegistered(f'CombinationGenerator has not been set!')
+        if not hasattr(self, 'generator'):
+            logging.warning('CombinationGenerator has not been set! Assuming that the table contains combinations.')
+            return table
+
+        result = self.generator.run(table)
+        return result
 
     def set(self, generator: CombinationGenerator) -> 'Pipeline':
         logging.debug(f'Setting CombinationGenerator: {generator}')
