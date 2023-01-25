@@ -55,19 +55,19 @@ config = get_config(args.config)
     .traitInterpreter.register(
         NotchPropertyTraitInterpreter(
             action='set_single_notch_property',
-            config=config
+            config=config['feature']
         )
     )
     .traitInterpreter.register(
         NotchRangePropertyInterpreter(
             action='set_single_notch_property_in_range',
-            config=config
+            config=config['feature']
         )
     )
     .traitInterpreter.register(
         StableDiffusionKeywordTraitInterpreter(
             action='substitute_stable_diffusion_keyword',
-            config=config
+            config=config['feature']
         )
     )
     # .traitAssembler.register(

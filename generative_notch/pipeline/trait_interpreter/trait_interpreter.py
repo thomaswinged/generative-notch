@@ -8,10 +8,21 @@ from ..trait_assembler.trait_assembler import TraitAssembler
 class TraitInterpreter(ABC):
     """
     Given feature properties and trait to decrypt, prepares assembly instructions.
+    A basic input config dict should be constructed this way:
+    {
+        <feature_name> {
+            action: <my_action_keyword>
+            ... feature-dependent params ...
+        }
+        <feature_name> {
+            action: <my_action_keyword>
+            ... feature-dependent params ...
+        }
+    }
 
-    :param action: keyword that interpreter looks for
+    :param action: keyword that interpreter looks for when reading config to determine which features should it process
     :param config: a dictionary from which interpreter reads feature properties
-    :param assembly_instructions: a collection of interpreted traits, prepared for assembly
+    :param assembly_instructions: a collection of interpreted traits gather when `run` is called, prepared for assembly
     """
     action: str
     config: dict
@@ -29,12 +40,12 @@ class TraitInterpreter(ABC):
         :param feature_name: name of a feature, needs to match the provided config
         :param trait_value: value of a trait: needs to match the provided config
         """
-        if self.config['feature'][feature_name]['action'] != self.action:
+        if self.config[feature_name]['action'] != self.action:
             return
 
         instruction = self.interpret(
             trait_value,
-            self.config['feature'][feature_name]
+            self.config[feature_name]
         )
 
         self.assembly_instructions.append(instruction)
@@ -42,7 +53,7 @@ class TraitInterpreter(ABC):
     @abstractmethod
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
         """
-        Defines a method of interpreting the trait
+        Defines a method of interpreting the trait. Should not be executed manually, use `run()` instead.
         Return assembly instruction, e.g.:
         {
             'node': '$F_MyText',
