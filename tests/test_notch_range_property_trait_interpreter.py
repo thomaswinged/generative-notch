@@ -1,4 +1,3 @@
-import logging
 import unittest
 from generative_notch.pipeline.trait_interpreter.notch_range_property import NotchRangePropertyInterpreter, NotchTraitAssembler
 
@@ -12,7 +11,19 @@ CONFIG = {
 
 
 class TestNotchRangePropertyInterpreter(unittest.TestCase):
-    def test_simple_run(self):
+    def test_result_assembler_type(self):
+        interpreter = NotchRangePropertyInterpreter(
+            action='my_action_keyword',
+            config=CONFIG
+        )
+        interpreter.run('MyFeature', '5-6')
+        result = interpreter.get_result()
+
+        self.assertEqual(
+            result[0], NotchTraitAssembler
+        )
+
+    def test_is_result_in_range(self):
         interpreter = NotchRangePropertyInterpreter(
             action='my_action_keyword',
             config=CONFIG
