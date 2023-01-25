@@ -1,6 +1,8 @@
+import logging
 from typing import Type, Tuple
 from abc import ABC, abstractmethod
 from attrs import define, field
+from attrs.validators import instance_of
 from ..trait_assembler.trait_assembler import TraitAssembler
 
 
@@ -25,7 +27,11 @@ class TraitInterpreter(ABC):
     :param assembly_instructions: a collection of interpreted traits gather when `run` is called, prepared for assembly
     """
     action: str
-    config: dict
+    config: dict = field(validator=instance_of(dict))
+    @config.validator
+    def __config_validator(self, attr, val:dict):
+        if not val.keys():
+            raise ValueError(f'Provided config does not have any keys!')
     assembly_instructions: list[dict] = field(factory=list, init=False)
 
     @abstractmethod
@@ -40,7 +46,10 @@ class TraitInterpreter(ABC):
         :param feature_name: name of a feature, needs to match the provided config
         :param trait_value: value of a trait: needs to match the provided config
         """
-        if self.config[feature_name]['action'] != self.action:
+        if feature_name not in self.config:
+            raise ValueError(f'Given feature [{feature_name}] does not exist in provided config!')
+        elif self.config[feature_name]['action'] != self.action:
+            logging.warning(f'This interpreter does not implement [{self.action}] action keyword!')
             return
 
         instruction = self.interpret(

@@ -22,6 +22,9 @@ class NotchPropertyTraitInterpreter(TraitInterpreter):
         return NotchTraitAssembler
 
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        if trait_value not in feature_properties['options']:
+            raise ValueError(f'Trait does not exist in feature options config')
+
         return {
             'node': feature_properties['node'],
             'property': feature_properties['property'],
