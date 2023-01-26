@@ -8,10 +8,10 @@ class StableDiffusionKeywordTraitInterpreter(TraitInterpreter):
     Passthrough interpreter intended to work with StableDiffusionAssembler.
     """
 
-    def get_compatible_assembler(self) -> Type[TraitAssembler]:
-        return StableDiffusionTraitAssembler
-
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        if 'substitutes' not in feature_properties:
+            raise KeyError(f'Config of this feature is not compatible with this interpreter!')
+
         return {
             'word': trait_value,
             'substitutes': feature_properties['substitutes']

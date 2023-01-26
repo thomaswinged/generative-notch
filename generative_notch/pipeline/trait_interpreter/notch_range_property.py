@@ -18,10 +18,10 @@ class NotchRangePropertyInterpreter(TraitInterpreter):
     }
     """
 
-    def get_compatible_assembler(self) -> Type[TraitAssembler]:
-        return NotchTraitAssembler
-
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        if not {'node', 'property'}.issubset(feature_properties):
+            raise KeyError(f'Config of this feature is not compatible with this interpreter!')
+
         if m := search(r'([0-9]*)\s*-\s*([0-9]*)(?:\s*,\s*([0-9]*.?[0-9]*))?', trait_value):
             start, stop, step = float(m.group(1)), float(m.group(2)), m.group(3)
             step = float(step) if step else 1.0

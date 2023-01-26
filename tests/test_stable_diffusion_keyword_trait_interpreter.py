@@ -3,16 +3,24 @@ from generative_notch.pipeline.trait_interpreter.stable_diffusion_keyword import
 
 CONFIG = {
     'MyFeature': {
-        'action': 'my_action_keyword',
+        'action': 'substitute_stable_diffusion_keyword',
         'substitutes': 'subs'
+    }
+}
+
+INVALID_CONFIG = {
+    'MyFeature': {
+        'action': 'substitute_stable_diffusion_keyword',
+        'subs': 'subs'
     }
 }
 
 
 class TestStableDiffusionKeywordTraitInterpreter(unittest.TestCase):
-    def test_simple_run(self):
+    def test_run(self):
         interpreter = StableDiffusionKeywordTraitInterpreter(
-            action='my_action_keyword',
+            compatible_assembler=StableDiffusionTraitAssembler,
+            compatible_keyword='substitute_stable_diffusion_keyword',
             config=CONFIG
         )
         interpreter.run('MyFeature', 'my_word')
@@ -28,6 +36,15 @@ class TestStableDiffusionKeywordTraitInterpreter(unittest.TestCase):
                 }]
             )
         )
+
+    def test_illformed_config(self):
+        with self.assertRaises(KeyError):
+            interpreter = StableDiffusionKeywordTraitInterpreter(
+                compatible_assembler=StableDiffusionTraitAssembler,
+                compatible_keyword='substitute_stable_diffusion_keyword',
+                config=INVALID_CONFIG
+            )
+            interpreter.run('MyFeature', 'my_word')
 
 
 if __name__ == '__main__':

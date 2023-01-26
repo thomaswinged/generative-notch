@@ -54,19 +54,22 @@ config = get_config(args.config)
     )
     .traitInterpreter.register(
         NotchPropertyTraitInterpreter(
-            action='set_single_notch_property',
+            compatible_assembler=NotchTraitAssembler,
+            compatible_keyword='set_single_notch_property',
             config=config['feature']
         )
     )
     .traitInterpreter.register(
         NotchRangePropertyInterpreter(
-            action='set_single_notch_property_in_range',
+            compatible_assembler=NotchTraitAssembler,
+            compatible_keyword='set_single_notch_property_in_range',
             config=config['feature']
         )
     )
     .traitInterpreter.register(
         StableDiffusionKeywordTraitInterpreter(
-            action='substitute_stable_diffusion_keyword',
+            compatible_assembler=StableDiffusionTraitAssembler,
+            compatible_keyword='substitute_stable_diffusion_keyword',
             config=config['feature']
         )
     )

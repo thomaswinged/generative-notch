@@ -18,10 +18,10 @@ class NotchPropertyTraitInterpreter(TraitInterpreter):
     }
     """
 
-    def get_compatible_assembler(self) -> Type[TraitAssembler]:
-        return NotchTraitAssembler
-
     def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+        if not {'node', 'property', 'options'}.issubset(feature_properties):
+            raise KeyError(f'Config of this feature is not compatible with this interpreter!')
+
         if trait_value not in feature_properties['options']:
             raise ValueError(f'Trait does not exist in feature options config')
 

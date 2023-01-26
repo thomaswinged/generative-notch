@@ -22,24 +22,20 @@ class TraitInterpreter(ABC):
         }
     }
 
-    :param action: keyword that interpreter looks for when reading config to determine which features should it process
+    :param compatible_keyword: keyword that interpreter looks for when reading config to determine which features should it process
+    :param compatible_assembler: TraitAssembler that this interpreter interprets information for
     :param config: a dictionary from which interpreter reads feature properties
     :param assembly_instructions: a collection of interpreted traits gather when `run` is called, prepared for assembly
     """
-    action: str
     config: dict = field(validator=instance_of(dict))
     @config.validator
-    def __config_validator(self, attr, val:dict):
+    def __config_validator(self, _, val: dict):
         if not val.keys():
             raise ValueError(f'Provided config does not have any keys!')
-    assembly_instructions: list[dict] = field(factory=list, init=False)
 
-    @abstractmethod
-    def get_compatible_assembler(self) -> Type[TraitAssembler]:
-        """
-        Should return assembler type that is compatible with instructions interpreted by derived TraitInterpreter
-        """
-        pass
+    compatible_keyword: str
+    compatible_assembler: Type[TraitAssembler]
+    assembly_instructions: list[dict] = field(factory=list, init=False)
 
     def run(self, feature_name: str, trait_value: str) -> None:
         """
@@ -48,8 +44,10 @@ class TraitInterpreter(ABC):
         """
         if feature_name not in self.config:
             raise ValueError(f'Given feature [{feature_name}] does not exist in provided config!')
-        elif self.config[feature_name]['action'] != self.action:
-            logging.warning(f'This interpreter does not implement [{self.action}] action keyword!')
+        elif 'action' not in self.config[feature_name]:
+            raise KeyError(f'Ill-formed feature config - it needs to implement [action] key with compatible keyword!')
+        elif self.config[feature_name]['action'] != self.compatible_keyword:
+            logging.warning(f'This interpreter does not implement [{self.compatible_keyword}] action keyword!')
             return
 
         instruction = self.interpret(
@@ -81,7 +79,5 @@ class TraitInterpreter(ABC):
         Returns all instructions for compatible assembler gathered via interpreting provided traits.
         :return: compatible assembler and matching instructions
         """
-        if not self.get_compatible_assembler():
-            raise ValueError(f'Compatible interpreter not specified!')
 
-        return self.get_compatible_assembler(), self.assembly_instructions
+        return self.compatible_assembler, self.assembly_instructions
