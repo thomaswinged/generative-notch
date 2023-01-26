@@ -1,4 +1,4 @@
-from typing import Type
+from typing import Type, Optional
 from .trait_interpreter import TraitInterpreter
 from ..trait_assembler.notch import TraitAssembler, NotchTraitAssembler
 
@@ -18,7 +18,7 @@ class NotchPropertyTraitInterpreter(TraitInterpreter):
     }
     """
 
-    def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+    def interpret(self, trait_value: str, feature_properties: dict) -> Optional[dict]:
         if not {'node', 'property', 'options'}.issubset(feature_properties):
             raise KeyError(f'Config of this feature is not compatible with this interpreter!')
 

@@ -1,5 +1,5 @@
 import logging
-from typing import Type, Tuple
+from typing import Type, Tuple, Optional
 from abc import ABC, abstractmethod
 from attrs import define, field
 from attrs.validators import instance_of
@@ -50,15 +50,11 @@ class TraitInterpreter(ABC):
             logging.warning(f'This interpreter does not implement [{self.compatible_keyword}] action keyword!')
             return
 
-        instruction = self.interpret(
-            trait_value,
-            self.config[feature_name]
-        )
-
-        self.assembly_instructions.append(instruction)
+        if instruction := self.interpret(trait_value, self.config[feature_name]):
+            self.assembly_instructions.append(instruction)
 
     @abstractmethod
-    def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+    def interpret(self, trait_value: str, feature_properties: dict) -> Optional[dict]:
         """
         Defines a method of interpreting the trait. Should not be executed manually, use `run()` instead.
         Return assembly instruction, e.g.:
@@ -67,10 +63,11 @@ class TraitInterpreter(ABC):
             'property': Attributes.Text,
             'value': 'Hello World!'
         }
+        The return is optional as it's possible for the derived interpreter to gather more traits before it can make an output
 
         :param trait_value: value of a trait
         :param feature_properties: a collection of feature properties, that should be used to interpret the trait value
-        :return: a single assembly instruction
+        :return: optional, a single assembly instruction
         """
         pass
 

@@ -1,5 +1,5 @@
 import logging
-from typing import Type
+from typing import Type, Optional
 from random import randint
 from re import search
 from .trait_interpreter import TraitInterpreter
@@ -18,7 +18,7 @@ class NotchRangePropertyInterpreter(TraitInterpreter):
     }
     """
 
-    def interpret(self, trait_value: str, feature_properties: dict) -> dict:
+    def interpret(self, trait_value: str, feature_properties: dict) -> Optional[dict]:
         if not {'node', 'property'}.issubset(feature_properties):
             raise KeyError(f'Config of this feature is not compatible with this interpreter!')
 

@@ -7,7 +7,7 @@ notch_app: C:\Program Files\Notch\NotchApp.exe
 ffmpeg: D:\Tools\ffmpeg\bin\ffmpeg.exe
 
 stable_diffusion:
-  prompt: portrait of a {gender} {profession} holding a {holding}, artstation
+  prompt: portrait of a {profession} {clan} holding a {holding}, artstation
   save_dir: D:\git\generative_notch\in_out\sd\
 
 google_sheets:
@@ -58,9 +58,9 @@ feature:
     action: set_single_notch_property_in_range
     node: $F_Text
     property: Attribute, Text
-  Gender:
+  Clan:
     action: substitute_stable_diffusion_keyword
-    substitutes: gender
+    substitutes: clan
   Holding:
     action: substitute_stable_diffusion_keyword
     substitutes: holding

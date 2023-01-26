@@ -11,10 +11,13 @@ AssemblyInstructions = dict[Type['TraitAssembler'], list[dict]]
 @define
 class TraitAssembler(ABC):
     """
+    Generates intermediate assets and project files.
 
+    :param extra_instructions: list of dictionary containing instructions for assembling
+    :return: Renderer to be used and list of instructions that are enough to perform the render, e.g. filepaths
     """
     compatible_renderer: Type[Renderer]
-    extra_instructions: list = field(factory=list, init=False)
+    extra_instructions: list[dict] = field(factory=list, init=False)
     config: dict
 
     @abstractmethod
