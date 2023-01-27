@@ -83,7 +83,7 @@ config = get_config(args.config)
     #     NotchTraitAssembler(
     #         compatible_renderer=NotchRenderer,
     #         config=config
-    #     ).add_extra_instruction({
+    #     ).add_instruction_manually({
     #         'node': '$F_SubjectPhoto',
     #         'property': 'Attribute.Image Path',
     #         'value': os.path.join(

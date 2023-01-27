@@ -3,29 +3,13 @@ from ..renderer.renderer import RenderInstructions
 
 
 class StableDiffusionTraitAssembler(TraitAssembler):
-    def run(self, additional_context: dict, assembly_instructions: list[dict]) -> RenderInstructions:
-        interpolated_instructions = self.interpolate_instructions(additional_context, assembly_instructions)
+    def assemble(self, assembly_instructions: list[dict]) -> list[dict]:
+        substitutions = {}
+        for instruction in assembly_instructions:
+            substitutions.update(instruction)
 
-        replacements = {}
-        for instruction in interpolated_instructions:
-            replacements.update(instruction)
+        prompt = self.config['stable_diffusion']['prompt'].format(**substitutions)
 
-        prompt = interpolate_prompt(
-            prompt=self.config['stable_diffusion']['prompt'],
-            dictionary=replacements
-        )
-
-        render_instructions = [{
+        return [{
             'prompt': prompt
         }]
-
-        return {
-            self.compatible_renderer: render_instructions
-        }
-
-
-def interpolate_prompt(prompt: str, dictionary: dict):
-    return prompt.format(**dictionary)
-
-
-# save_directory=config['stable_diffusion']['save_dir']

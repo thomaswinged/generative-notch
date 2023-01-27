@@ -131,10 +131,10 @@ class TraitAssemblerPipelineModule:
                 assembler = self.assemblers[assembler_type]
 
                 for renderer_type, partial_instructions in assembler.run(
-                        additional_context={
+                        assembly_instructions=instructions,
+                        context={
                             'combination_id': combination_id
-                        },
-                        assembly_instructions=instructions
+                        }
                 ):
                     result[combination_id][renderer_type].extend(partial_instructions)
 
