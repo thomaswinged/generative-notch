@@ -123,4 +123,4 @@ result = (
     .run()
 )
 
-pprint(result)
+pprint(result, width=200)
