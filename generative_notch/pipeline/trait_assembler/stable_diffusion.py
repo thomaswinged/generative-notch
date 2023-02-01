@@ -1,12 +1,14 @@
-from .trait_assembler import TraitAssembler, AssemblyInstructions
-from ..renderer.renderer import RenderInstructions
+import logging
+
+from .trait_assembler import TraitAssembler
 
 
 class StableDiffusionTraitAssembler(TraitAssembler):
     def assemble(self, assembly_instructions: list[dict]) -> list[dict]:
         substitutions = {}
         for instruction in assembly_instructions:
-            substitutions.update(instruction)
+            substitutions[instruction['substitutes']] = instruction['word']
+        logging.warning(self.config['stable_diffusion']['prompt'])
 
         prompt = self.config['stable_diffusion']['prompt'].format(**substitutions)
 

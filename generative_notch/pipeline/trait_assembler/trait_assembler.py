@@ -1,11 +1,11 @@
 from attrs import define, field
 from string import Formatter
 from re import findall
-from typing import Type
+from typing import Type, Tuple
 from abc import ABC, abstractmethod
 from flatten_dict import flatten
 from flatten_dict.reducers import make_reducer
-from ..renderer.renderer import Renderer, RenderInstructions
+from ..renderer.renderer import Renderer
 
 AssemblyInstructions = dict[Type['TraitAssembler'], list[dict]]
 
@@ -22,21 +22,24 @@ class TraitAssembler(ABC):
     config: dict
     __extra_instructions: list[dict] = field(factory=list, init=False)
 
-    def run(self, assembly_instructions: list[dict], context: dict) -> RenderInstructions:
+    def run(self, assembly_instructions: list[dict], context: dict = None) -> Tuple[Type['Renderer'], list[dict]]:
         # extend context by whole config
-        flat_cfg = flatten_dict(self.config)
-        extended_context = dict(context, **flat_cfg)
+        interpolation_context = {}
+        if self.config:
+            interpolation_context = flatten_dict(self.config)
+            if context:
+                interpolation_context = dict(interpolation_context, **context)
+        elif context:
+            interpolation_context = context
 
         interpolated_instructions = interpolate_instructions(
             instructions=assembly_instructions + self.__extra_instructions,
-            context=extended_context
+            context=interpolation_context
         )
 
         output_instruction = self.assemble(interpolated_instructions)
 
-        return {
-            self.compatible_renderer: output_instruction
-        }
+        return self.compatible_renderer, output_instruction
 
     @abstractmethod
     def assemble(self, assembly_instructions: list[dict]) -> list[dict]:
