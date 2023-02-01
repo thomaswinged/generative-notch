@@ -13,5 +13,5 @@ class StableDiffusionTraitAssembler(TraitAssembler):
         prompt = self.config['stable_diffusion']['prompt'].format(**substitutions)
 
         return [{
-            'prompt': prompt
+            'prompt': prompt + ', ' + self.config['stable_diffusion']['extra_prompt']
         }]
