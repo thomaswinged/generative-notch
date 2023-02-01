@@ -87,10 +87,12 @@ class TraitInterpreterPipelineModule:
                 for feature, trait in combination.items():
                     interpreter.run(str(feature), trait)
 
-                assembler, instructions = interpreter.get_result()
-                if assembler not in result[combination_id]:
-                    result[combination_id][assembler]: list[dict] = []
-                result[combination_id][assembler].extend(instructions)
+                assembler_type, instructions = interpreter.get_result()
+
+                if assembler_type not in result[combination_id]:
+                    result[combination_id][assembler_type]: list[dict] = []
+
+                result[combination_id][assembler_type].extend(instructions)
                 instructions.clear()
 
         return result
@@ -104,17 +106,10 @@ class TraitInterpreterPipelineModule:
 @define
 class TraitAssemblerPipelineModule:
     pipeline: 'Pipeline'
-    assemblers: dict[Type[TraitAssembler], TraitAssembler] = field(init=False)
+    assemblers: dict[Type[TraitAssembler], TraitAssembler] = field(init=False, factory=dict)
 
     def run(self, indexed_assembly_instructions: dict[int, AssemblyInstructions]) -> dict[int, RenderInstructions]:
         result: dict[int, RenderInstructions] = {}
-
-        # Assert that all registered assemblers will be used
-        # TODO Move into a function that will be triggered in validation stage
-        for combination_id, assembly_instructions in indexed_assembly_instructions.items():
-            for assembler_type, instructions in assembly_instructions.items():
-                if assembler_type not in [t for t, _ in indexed_assembly_instructions]:
-                    logging.warning(f'Registered unused TraitAssembler: {assembler_type}')
 
         # Assert that all required assemblers has been registered
         # TODO Move into a function that will be triggered in validation stage
@@ -125,18 +120,22 @@ class TraitAssemblerPipelineModule:
 
         # Perform actual assembling
         for combination_id, assembly_instructions in indexed_assembly_instructions.items():
-            result[combination_id] = defaultdict(RenderInstructions)
+            result[combination_id] = {}
 
             for assembler_type, instructions in assembly_instructions.items():
                 assembler = self.assemblers[assembler_type]
 
-                for renderer_type, partial_instructions in assembler.run(
+                renderer_type, partial_instructions = assembler.run(
                         assembly_instructions=instructions,
                         context={
                             'combination_id': combination_id
                         }
-                ):
-                    result[combination_id][renderer_type].extend(partial_instructions)
+                )
+
+                if renderer_type not in result[combination_id]:
+                    result[combination_id][renderer_type]: list[dict] = []
+
+                result[combination_id][renderer_type].extend(partial_instructions)
 
         return result
 
@@ -149,15 +148,15 @@ class TraitAssemblerPipelineModule:
 @define
 class RendererPipelineModule:
     pipeline: 'Pipeline'
-    renderers: dict[Type[Renderer], Renderer] = field(init=False)
+    renderers: dict[Type[Renderer], Renderer] = field(init=False, factory=dict)
 
     def run(self, indexed_render_instructions: dict[int, RenderInstructions]) -> list[str]:
         result: list[str] = []
 
         # Check if all required Renderers are registered
         # TODO Move into a function that will be triggered in validation stage
-        for combination_id, render_instructions in indexed_render_instructions:
-            for renderer_type, instruction in render_instructions:
+        for combination_id, render_instructions in indexed_render_instructions.items():
+            for renderer_type in render_instructions.keys():
                 if renderer_type not in self.renderers:
                     raise NotRegistered(f'Required Renderer [{renderer_type}] is not registered!')
 
@@ -193,9 +192,9 @@ class Pipeline:
         combinations = self.combinationGenerator.run(preprocessed_table)
         assembly_instructions = self.traitInterpreter.run(combinations)
         render_instructions = self.traitAssembler.run(assembly_instructions)
-        output_footage = self.renderer.run(render_instructions)
+        #output_footage = self.renderer.run(render_instructions)
 
-        return output_footage
+        return render_instructions
         # postprocessed_footage: list[str] = self.outputPostprocessor.run(output_footage)
         # feedback: str = self.finalizer.run(postprocessed_footage)
 

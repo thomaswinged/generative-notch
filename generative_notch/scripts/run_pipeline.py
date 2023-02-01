@@ -1,4 +1,5 @@
 import argparse
+from pprint import pprint
 import os
 from generative_notch import get_config, init_logger
 from generative_notch.pipeline.pipeline import Pipeline
@@ -28,7 +29,7 @@ args = parser.parse_args([r'D:\git\generative_notch\generative_notch\config\conf
 config = get_config(args.config)
 
 
-(
+result = (
     Pipeline()
     # .tableLoader.set(
     #     GoogleSheetsTableLoader(
@@ -52,20 +53,20 @@ config = get_config(args.config)
             filepath=r'D:\git\generative_notch\tests\data\combinations.csv'
         )
     )
-    .traitInterpreter.register(
-        NotchPropertyTraitInterpreter(
-            compatible_assembler=NotchTraitAssembler,
-            compatible_keyword='set_single_notch_property',
-            config=config['feature']
-        )
-    )
-    .traitInterpreter.register(
-        NotchRangePropertyInterpreter(
-            compatible_assembler=NotchTraitAssembler,
-            compatible_keyword='set_single_notch_property_in_range',
-            config=config['feature']
-        )
-    )
+    # .traitInterpreter.register(
+    #     NotchPropertyTraitInterpreter(
+    #         compatible_assembler=NotchTraitAssembler,
+    #         compatible_keyword='set_single_notch_property',
+    #         config=config['feature']
+    #     )
+    # )
+    # .traitInterpreter.register(
+    #     NotchRangePropertyInterpreter(
+    #         compatible_assembler=NotchTraitAssembler,
+    #         compatible_keyword='set_single_notch_property_in_range',
+    #         config=config['feature']
+    #     )
+    # )
     .traitInterpreter.register(
         StableDiffusionKeywordTraitInterpreter(
             compatible_assembler=StableDiffusionTraitAssembler,
@@ -73,12 +74,12 @@ config = get_config(args.config)
             config=config['feature']
         )
     )
-    # .traitAssembler.register(
-    #     StableDiffusionTraitAssembler(
-    #         compatible_renderer=StableDiffusionRenderer,
-    #         config=config
-    #     )
-    # )
+    .traitAssembler.register(
+        StableDiffusionTraitAssembler(
+            compatible_renderer=StableDiffusionRenderer,
+            config=config
+        )
+    )
     # .traitAssembler.register(
     #     NotchTraitAssembler(
     #         compatible_renderer=NotchRenderer,
@@ -121,3 +122,5 @@ config = get_config(args.config)
     # )
     .run()
 )
+
+pprint(result)
