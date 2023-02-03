@@ -93,9 +93,9 @@ result = (
     #         )
     #     })
     # )
-    # .renderer.register(
-    #     StableDiffusionRenderer()
-    # )
+    .renderer.register(
+        StableDiffusionRenderer()
+    )
     # .renderer.register(
     #     NotchRenderer()
     # )

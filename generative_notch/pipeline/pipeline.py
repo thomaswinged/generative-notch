@@ -151,8 +151,6 @@ class RendererPipelineModule:
     renderers: dict[Type[Renderer], Renderer] = field(init=False, factory=dict)
 
     def run(self, indexed_render_instructions: dict[int, RenderInstructions]) -> list[str]:
-        result: list[str] = []
-
         # Check if all required Renderers are registered
         # TODO Move into a function that will be triggered in validation stage
         for combination_id, render_instructions in indexed_render_instructions.items():
@@ -161,6 +159,7 @@ class RendererPipelineModule:
                     raise NotRegistered(f'Required Renderer [{renderer_type}] is not registered!')
 
         # Perform actual rendering
+        result: list[str] = []
         for combination_id, render_instructions in indexed_render_instructions:
             for renderer_type, instruction in render_instructions:
                 renderer = self.renderers[renderer_type]
@@ -192,9 +191,9 @@ class Pipeline:
         combinations = self.combinationGenerator.run(preprocessed_table)
         assembly_instructions = self.traitInterpreter.run(combinations)
         render_instructions = self.traitAssembler.run(assembly_instructions)
-        #output_footage = self.renderer.run(render_instructions)
+        output_footage = self.renderer.run(render_instructions)
 
-        return render_instructions
+        return output_footage
         # postprocessed_footage: list[str] = self.outputPostprocessor.run(output_footage)
         # feedback: str = self.finalizer.run(postprocessed_footage)
 
